@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 64, in <module>
+    action = int(action)
+             ^^^^^^^^^^^
+TypeError: only length-1 arrays can be converted to Python scalars

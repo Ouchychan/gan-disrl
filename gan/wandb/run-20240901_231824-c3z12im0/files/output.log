@@ -1,0 +1,72 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\activations\leaky_relu.py:41: UserWarning: Argument `alpha` is deprecated. Use `negative_slope` instead.
+  warnings.warn(
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 84ms/step
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_train_function.<locals>.one_step_on_iterator at 0x000001FDC35F77E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_train_function.<locals>.one_step_on_iterator at 0x000001FDC4E4DEE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Epoch 0/1000 - D Loss Real: 1.7206952571868896 - D Loss Fake: 1.129925012588501 - G Loss: [array(1.129925, dtype=float32), array(1.129925, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 19ms/step
+Epoch 1/1000 - D Loss Real: 1.073217749595642 - D Loss Fake: 0.9794983863830566 - G Loss: [array(0.9794984, dtype=float32), array(0.9794984, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 17ms/step
+Epoch 2/1000 - D Loss Real: 0.8790035247802734 - D Loss Fake: 0.861775815486908 - G Loss: [array(0.8617758, dtype=float32), array(0.8617758, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 16ms/step
+Epoch 3/1000 - D Loss Real: 0.7820257544517517 - D Loss Fake: 0.8020830154418945 - G Loss: [array(0.802083, dtype=float32), array(0.802083, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 17ms/step
+Epoch 4/1000 - D Loss Real: 0.7275256514549255 - D Loss Fake: 0.7548149824142456 - G Loss: [array(0.754815, dtype=float32), array(0.754815, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 21ms/step
+Epoch 5/1000 - D Loss Real: 0.701486349105835 - D Loss Fake: 0.7361484169960022 - G Loss: [array(0.7361484, dtype=float32), array(0.7361484, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 6/1000 - D Loss Real: 0.6834007501602173 - D Loss Fake: 0.7278258204460144 - G Loss: [array(0.7278258, dtype=float32), array(0.7278258, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 7/1000 - D Loss Real: 0.6835328340530396 - D Loss Fake: 0.7266780734062195 - G Loss: [array(0.7266781, dtype=float32), array(0.7266781, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 8/1000 - D Loss Real: 0.6876128315925598 - D Loss Fake: 0.7225841283798218 - G Loss: [array(0.7225841, dtype=float32), array(0.7225841, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 16ms/step
+Epoch 9/1000 - D Loss Real: 0.6864283084869385 - D Loss Fake: 0.7377487421035767 - G Loss: [array(0.73774874, dtype=float32), array(0.73774874, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 17ms/step
+Epoch 10/1000 - D Loss Real: 0.704335629940033 - D Loss Fake: 0.7432919144630432 - G Loss: [array(0.7432919, dtype=float32), array(0.7432919, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 11/1000 - D Loss Real: 0.7121719121932983 - D Loss Fake: 0.7482771277427673 - G Loss: [array(0.7482771, dtype=float32), array(0.7482771, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 12/1000 - D Loss Real: 0.7192609906196594 - D Loss Fake: 0.7502424716949463 - G Loss: [array(0.7502425, dtype=float32), array(0.7502425, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 13ms/step
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 111, in <module>
+    train_gan()
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 81, in train_gan
+    g_loss = gan.train_on_batch(np.random.normal(0, 1, (batch_size, config.latent_dim)), np.ones((batch_size, 1)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 551, in train_on_batch
+    logs = self.train_function(data())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 833, in __call__
+    result = self._call(*args, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 878, in _call
+    results = tracing_compilation.call_function(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 139, in call_function
+    return function._call_flat(  # pylint: disable=protected-access
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\concrete_function.py", line 1322, in _call_flat
+    return self._inference_function.call_preflattened(args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\atomic_function.py", line 216, in call_preflattened
+    flat_outputs = self.call_flat(*args)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\atomic_function.py", line 251, in call_flat
+    outputs = self._bound_context.call_function(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\context.py", line 1552, in call_function
+    outputs = execute.execute(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

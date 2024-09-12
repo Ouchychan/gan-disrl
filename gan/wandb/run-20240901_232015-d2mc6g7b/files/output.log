@@ -1,0 +1,15 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\activations\leaky_relu.py:41: UserWarning: Argument `alpha` is deprecated. Use `negative_slope` instead.
+  warnings.warn(
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 65ms/step
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 93, in <module>
+    train_gan()
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 90, in train_gan
+    save_generated_images(epoch + 1, generator)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'save_generated_images' is not defined
+Epoch 999/1000 - D Loss Real: 1.074242115020752 - D Loss Fake: 0.9448106288909912 - G Loss: [array(0.9448106, dtype=float32), array(0.9448106, dtype=float32)]

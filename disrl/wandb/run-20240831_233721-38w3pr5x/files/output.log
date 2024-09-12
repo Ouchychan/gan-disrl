@@ -1,0 +1,56 @@
+C:\Users\UMI\Desktop\train_cartpole.py:103: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  return int(action)  # Ensure action is an integer
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 158, in <module>
+    loss = train_step(batch)  # Define loss here
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 89, in train_step
+    target_dist = compute_target_distribution(next_states, rewards, dones)  # Shape: [batch_size, num_atoms]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 66, in compute_target_distribution
+    next_dist = tf.reduce_sum(next_logits * tf.expand_dims(tf.linspace(Vmin, Vmax, num_atoms), axis=0), axis=-1)  # Shape: [batch_size, num_atoms]
+                              ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\framework\ops.py", line 5983, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: cannot compute Mul as input #1(zero-based) was expected to be a float tensor but is a double tensor [Op:Mul] name:
+Step result: (array([-0.0326798 ,  0.22637446,  0.00105829, -0.29096207], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.02815231,  0.4214813 , -0.00476095, -0.583311  ], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.01972269,  0.61666965, -0.01642717, -0.8774899 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.0073893 ,  0.81201094, -0.03397697, -1.1752917 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.00885092,  1.0075575 , -0.05748281, -1.4784296 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.02900207,  1.2033322 , -0.0870514 , -1.7884972 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.05306872,  1.3993167 , -0.12282134, -2.1069214 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.08105505,  1.5954363 , -0.16495977, -2.4349039 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.11296378,  1.7915447 , -0.21365784, -2.7733514 ], dtype=float32), 1.0, True, False, {})
+Episode 1: Reward: 9.0, Loss: None
+Step result: (array([ 0.04712254,  0.14598808, -0.04391917, -0.28564474], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.05004231,  0.34170797, -0.04963206, -0.59184957], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.05687647,  0.53748834, -0.06146906, -0.89974433], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.06762623,  0.73338705, -0.07946394, -1.211098  ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.08229397,  0.92943984, -0.1036859 , -1.5275869 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.10088277,  1.1256487 , -0.13423765, -1.8507488 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.12339574,  1.3219683 , -0.17125261, -2.1819263 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.14983511,  1.5182898 , -0.21489114, -2.5222034 ], dtype=float32), 1.0, True, False, {})
+Episode 2: Reward: 8.0, Loss: None
+Step result: (array([-0.02689395,  0.15657187,  0.01924387, -0.32737598], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.02376252,  0.35141462,  0.01269635, -0.6139287 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([-1.6734224e-02,  5.4635692e-01,  4.1777472e-04, -9.0258586e-01],
+      dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.00580709,  0.7414732 , -0.01763394, -1.1951375 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.00902238,  0.93681896, -0.04153669, -1.4932947 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.02775876,  1.1324209 , -0.07140259, -1.7986528 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.05040717,  1.3282653 , -0.10737564, -2.1126454 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.07697248,  1.524284  , -0.14962855, -2.436488  ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.10745816,  1.7203377 , -0.1983583 , -2.7711093 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.14186491,  1.9161975 , -0.25378048, -3.117074  ], dtype=float32), 1.0, True, False, {})
+Episode 3: Reward: 10.0, Loss: None
+Step result: (array([-0.01161377, -0.18467115, -0.00390425,  0.3391904 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.01530719, -0.37973732,  0.00287956,  0.63063955], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.02290194, -0.5748993 ,  0.01549235,  0.92422795], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.03439993, -0.7702271 ,  0.03397691,  1.221739  ], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.04980447, -0.96576995,  0.05841169,  1.5248713 ], dtype=float32), 1.0, False, False, {})

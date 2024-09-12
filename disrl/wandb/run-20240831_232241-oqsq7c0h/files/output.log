@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 64, in <module>
+    action = action.numpy().item() if isinstance(action, (tf.Tensor, np.ndarray)) else action
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: can only convert an array of size 1 to a Python scalar

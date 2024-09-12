@@ -1,0 +1,5 @@
+myenv\Scripts\activate
+pip install tensorflow gym numpy matplotlib wandb
+python c51.py
+
+python qr-dqn.py

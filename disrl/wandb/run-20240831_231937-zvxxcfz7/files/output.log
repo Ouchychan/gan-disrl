@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 51, in <module>
+    state = tf.convert_to_tensor(state[None, :], dtype=tf.float32)
+                                 ~~~~~^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not tuple

@@ -1,0 +1,82 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\activations\leaky_relu.py:41: UserWarning: Argument `alpha` is deprecated. Use `negative_slope` instead.
+  warnings.warn(
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 70ms/step
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_train_function.<locals>.one_step_on_iterator at 0x000001F839B577E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_train_function.<locals>.one_step_on_iterator at 0x000001F83B3ADD00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Epoch 1999/10000 - D Loss Real: 1.3850281238555908 - D Loss Fake: 1.097942590713501 - G Loss: [array(1.0979426, dtype=float32), array(1.0979426, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 49ms/step
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 0s/step
+Epoch 2000/10000 - D Loss Real: 1.0033360719680786 - D Loss Fake: 0.9662918448448181 - G Loss: [array(0.96629184, dtype=float32), array(0.96629184, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 2001/10000 - D Loss Real: 0.8408181071281433 - D Loss Fake: 0.8776224255561829 - G Loss: [array(0.8776224, dtype=float32), array(0.8776224, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 13ms/step
+Epoch 2002/10000 - D Loss Real: 0.7868176102638245 - D Loss Fake: 0.8415541648864746 - G Loss: [array(0.84155416, dtype=float32), array(0.84155416, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 20ms/step
+Epoch 2003/10000 - D Loss Real: 0.760941743850708 - D Loss Fake: 0.8061529397964478 - G Loss: [array(0.80615294, dtype=float32), array(0.80615294, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 2004/10000 - D Loss Real: 0.7426463961601257 - D Loss Fake: 0.796492874622345 - G Loss: [array(0.7964929, dtype=float32), array(0.7964929, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 11ms/step
+Epoch 2005/10000 - D Loss Real: 0.7403055429458618 - D Loss Fake: 0.7928517460823059 - G Loss: [array(0.79285175, dtype=float32), array(0.79285175, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 2006/10000 - D Loss Real: 0.7460256218910217 - D Loss Fake: 0.7948790788650513 - G Loss: [array(0.7948791, dtype=float32), array(0.7948791, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 2007/10000 - D Loss Real: 0.7509266138076782 - D Loss Fake: 0.795238196849823 - G Loss: [array(0.7952382, dtype=float32), array(0.7952382, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 2008/10000 - D Loss Real: 0.7554081082344055 - D Loss Fake: 0.7967391610145569 - G Loss: [array(0.79673916, dtype=float32), array(0.79673916, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 18ms/step
+Epoch 2009/10000 - D Loss Real: 0.7605144381523132 - D Loss Fake: 0.8011432886123657 - G Loss: [array(0.8011433, dtype=float32), array(0.8011433, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 2010/10000 - D Loss Real: 0.7672848105430603 - D Loss Fake: 0.8078532814979553 - G Loss: [array(0.8078533, dtype=float32), array(0.8078533, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 2011/10000 - D Loss Real: 0.7768951654434204 - D Loss Fake: 0.8154443502426147 - G Loss: [array(0.81544435, dtype=float32), array(0.81544435, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 16ms/step
+Epoch 2012/10000 - D Loss Real: 0.7868661284446716 - D Loss Fake: 0.8252550959587097 - G Loss: [array(0.8252551, dtype=float32), array(0.8252551, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 2013/10000 - D Loss Real: 0.7979115843772888 - D Loss Fake: 0.8268731236457825 - G Loss: [array(0.8268731, dtype=float32), array(0.8268731, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 2014/10000 - D Loss Real: 0.8009223341941833 - D Loss Fake: 0.8350239396095276 - G Loss: [array(0.83502394, dtype=float32), array(0.83502394, dtype=float32)]
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 111, in <module>
+    train_gan()
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 77, in train_gan
+    d_loss_fake = discriminator.train_on_batch(fake_images, np.zeros((batch_size, 1)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 551, in train_on_batch
+    logs = self.train_function(data())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 833, in __call__
+    result = self._call(*args, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 878, in _call
+    results = tracing_compilation.call_function(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 132, in call_function
+    function = trace_function(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 178, in trace_function
+    concrete_function = _maybe_define_function(
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 239, in _maybe_define_function
+    concrete_function = tracing_options.function_cache.lookup(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\core\function\polymorphism\function_cache.py", line 48, in lookup
+    dispatch_type = self._dispatch_dict[context].dispatch(function_type)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\core\function\polymorphism\type_dispatch.py", line 92, in dispatch
+    for other in self._dispatch_table:
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\core\function\polymorphism\function_type.py", line 456, in __hash__
+    return hash((tuple(self.parameters.items()), tuple(self.captures.items())))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\framework\tensor.py", line 894, in __hash__
+    return hash((self._shape, self.dtype))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step

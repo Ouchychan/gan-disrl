@@ -1,0 +1,9 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\main.py", line 49, in <module>
+    train_gan(gan_generator, gan_critic, gan_optimizer_g, gan_optimizer_d, real_actions, noise_dim, batch_size, epochs)
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 38, in train_gan
+    gen_loss = generator_loss(fake_output)
+               ^^^^^^^^^^^^^^
+NameError: name 'generator_loss' is not defined

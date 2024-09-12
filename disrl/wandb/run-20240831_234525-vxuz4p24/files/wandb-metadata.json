@@ -1,0 +1,47 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.5",
+    "heartbeatAt": "2024-08-31T15:45:26.437207",
+    "startedAt": "2024-08-31T15:45:25.763109",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\UMI\\Desktop\\train_cartpole.py",
+    "codePathLocal": "train_cartpole.py",
+    "codePath": "train_cartpole.py",
+    "host": "DESKTOP-A6VNP1F",
+    "username": "UMI",
+    "executable": "C:\\Users\\UMI\\Desktop\\myenv\\Scripts\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2300.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.13378524780273,
+            "used": 473.2036018371582
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.711418151855469
+    }
+}

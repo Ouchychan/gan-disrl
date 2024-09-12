@@ -1,0 +1,51 @@
+C:\Users\UMI\Desktop\disrl\train_cartpole.py:104: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  return int(action)  # Ensure action is an integer
+C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Episode 1: Reward: 10.0, Loss: None
+Episode 2: Reward: 9.0, Loss: None
+Episode 3: Reward: 9.0, Loss: None
+Episode 4: Reward: 9.0, Loss: 3.849605083465576
+Episode 5: Reward: 8.0, Loss: 3.8372364044189453
+Episode 6: Reward: 9.0, Loss: 3.8236870765686035
+Episode 7: Reward: 15.0, Loss: 3.8056325912475586
+Episode 8: Reward: 9.0, Loss: 3.803305149078369
+Episode 9: Reward: 10.0, Loss: 3.7449135780334473
+Episode 10: Reward: 70.0, Loss: 3.723384380340576
+Episode 11: Reward: 67.0, Loss: 3.412806510925293
+Episode 12: Reward: 41.0, Loss: 3.4133780002593994
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\disrl\train_cartpole.py", line 167, in <module>
+    loss = train_step(batch)  # Define loss here
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\train_cartpole.py", line 95, in train_step
+    gradients = tape.gradient(loss, model.trainable_variables)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\eager\backprop.py", line 1066, in gradient
+    flat_grad = imperative_grad.imperative_grad(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\eager\imperative_grad.py", line 67, in imperative_grad
+    return pywrap_tfe.TFE_Py_TapeGradient(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\eager\backprop.py", line 148, in _gradient_function
+    return grad_fn(mock_op, *out_grads)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\ops\math_grad.py", line 1887, in _BatchMatMulV2
+    sx = array_ops.shape(x)
+         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\util\dispatch.py", line 1260, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\ops\array_ops.py", line 686, in shape
+    return shape_internal(input, name, optimize=True, out_type=out_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\ops\array_ops.py", line 727, in shape_internal
+    return gen_array_ops.shape(input, name=name, out_type=out_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\ops\gen_array_ops.py", line 11938, in shape
+    _result = pywrap_tfe.TFE_Py_FastPathExecute(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

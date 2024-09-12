@@ -1,0 +1,19 @@
+Action before conversion: [0 0]
+Action type: <class 'tensorflow.python.framework.ops.EagerTensor'>, shape: [2]
+Action after conversion: 0
+Step result: (array([-0.00149509, -0.21379226, -0.02998064,  0.2920768 ], dtype=float32), 1.0, False, False, {})
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 94, in <module>
+    loss = train_step(state, action, reward, next_state, done)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 41, in train_step
+    action_dist = tf.reduce_sum(dist * tf.one_hot(action, env.action_space.n), axis=1)
+                                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\framework\ops.py", line 5983, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__Mul_device_/job:localhost/replica:0/task:0/device:CPU:0}} Incompatible shapes: [1,2,51] vs. [2] [Op:Mul] name:

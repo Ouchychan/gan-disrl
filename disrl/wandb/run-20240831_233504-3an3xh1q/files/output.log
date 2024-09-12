@@ -1,0 +1,52 @@
+C:\Users\UMI\Desktop\train_cartpole.py:98: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  return int(action)  # Ensure action is an integer
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 153, in <module>
+    loss = train_step(batch)  # Define loss here
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 85, in train_step
+    target_dist = compute_target_distribution(next_states, rewards, dones)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 68, in compute_target_distribution
+    target = reward + (1 - done) * gamma * next_dist
+                      ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\framework\ops.py", line 5983, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__Mul_device_/job:localhost/replica:0/task:0/device:CPU:0}} Incompatible shapes: [32] vs. [32,2] [Op:Mul] name:
+Step result: (array([ 0.00594532, -0.1500691 ,  0.03515932,  0.33925125], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.00294394, 0.04453539, 0.04194435, 0.05785963], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.00383465, -0.15116209,  0.04310154,  0.36347568], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.00081141, 0.04332162, 0.05037105, 0.08468898], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.00167784, -0.15248483,  0.05206483,  0.39282897], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.00137186,  0.04186111,  0.05992141,  0.11700523], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.00053464, -0.15406594,  0.06226152,  0.4279747 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.00361595,  0.04012151,  0.07082101,  0.15555097], dtype=float32), 1.0, False, False, {})
+Step result: (array([-0.00281352,  0.23416175,  0.07393203, -0.11397579], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.00186971, 0.03806259, 0.07165252, 0.20108564], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.00263096,  0.23209052,  0.07567423, -0.06816164], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.00727277, 0.03596979, 0.074311  , 0.24740453], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.00799217,  0.22995612,  0.07925908, -0.0209446 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.01259129,  0.42385724,  0.0788402 , -0.2876054 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.02106844, 0.22770466, 0.07308809, 0.02886452], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.02562253, 0.03161481, 0.07366537, 0.3436828 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.02625483, 0.22561571, 0.08053903, 0.07510871], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.03076714, 0.02943704, 0.0820412 , 0.39207572], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.03135588, 0.2233047 , 0.08988272, 0.1263454 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.03582197, 0.02701775, 0.09240963, 0.44597724], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.03636233, 0.22071916, 0.10132917, 0.1837946 ], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.04077671, 0.02430432, 0.10500506, 0.50664544], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.0412628 , 0.2178021 , 0.11513797, 0.24881224], dtype=float32), 1.0, False, False, {})
+Step result: (array([ 0.04561884,  0.41110763,  0.12011421, -0.00545039], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.05384099, 0.21448615, 0.12000521, 0.32258555], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.05813072, 0.40771306, 0.12645692, 0.07002664], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.06628498, 0.21102631, 0.12785746, 0.39978024], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.0705055 , 0.40412468, 0.13585305, 0.14998475], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.07858799, 0.20734537, 0.13885276, 0.48225212], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.08273491, 0.40026245, 0.14849779, 0.23635328], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.09074015, 0.20336543, 0.15322486, 0.57194644], dtype=float32), 1.0, False, False, {})
+Step result: (array([0.09480746, 0.39604443, 0.16466379, 0.33118612], dtype=float32), 1.0, False, False, {})

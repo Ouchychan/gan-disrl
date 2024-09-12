@@ -1,0 +1,24 @@
+C:\Users\sally\OneDrive\Desktop\test\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  if not isinstance(terminated, (bool, np.bool)):
+Traceback (most recent call last):
+  File "C:\Users\sally\OneDrive\Desktop\New folder\disrl\c51.py", line 162, in <module>
+    step_result = env.step(action)
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\sally\OneDrive\Desktop\test\myenv\Lib\site-packages\gym\wrappers\time_limit.py", line 50, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+                                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sally\OneDrive\Desktop\test\myenv\Lib\site-packages\gym\wrappers\order_enforcing.py", line 37, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sally\OneDrive\Desktop\test\myenv\Lib\site-packages\gym\wrappers\env_checker.py", line 37, in step
+    return env_step_passive_checker(self.env, action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sally\OneDrive\Desktop\test\myenv\Lib\site-packages\gym\utils\passive_env_checker.py", line 233, in env_step_passive_checker
+    if not isinstance(terminated, (bool, np.bool)):
+                                         ^^^^^^^
+  File "C:\Users\sally\OneDrive\Desktop\test\myenv\Lib\site-packages\numpy\__init__.py", line 338, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'bool_'?

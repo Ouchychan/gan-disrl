@@ -1,0 +1,18 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\activations\leaky_relu.py:41: UserWarning: Argument `alpha` is deprecated. Use `negative_slope` instead.
+  warnings.warn(
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 70ms/step
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 112, in <module>
+    train_gan()
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 89, in train_gan
+    generator.save_weights(checkpoint_path.format(epoch=epoch + 1))
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\saving\saving_api.py", line 222, in save_weights
+    raise ValueError(
+ValueError: The filename must end in `.weights.h5`. Received: filepath=gan_generator_weights_epoch_1000.h5
+Epoch 999/10000 - D Loss Real: 0.9770373702049255 - D Loss Fake: 1.0181593894958496 - G Loss: [array(1.0181594, dtype=float32), array(1.0181594, dtype=float32)]

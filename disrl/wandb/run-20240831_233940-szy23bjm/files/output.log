@@ -1,0 +1,111 @@
+C:\Users\UMI\Desktop\train_cartpole.py:104: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  return int(action)  # Ensure action is an integer
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Episode 1: Reward: 14.0, Loss: None
+Episode 2: Reward: 11.0, Loss: None
+Episode 3: Reward: 12.0, Loss: 3.7504777908325195
+Episode 4: Reward: 10.0, Loss: 3.7265872955322266
+Episode 5: Reward: 11.0, Loss: 3.689457416534424
+Episode 6: Reward: 12.0, Loss: 3.606459617614746
+Episode 7: Reward: 15.0, Loss: 3.5428953170776367
+Episode 8: Reward: 16.0, Loss: 3.5414915084838867
+Episode 9: Reward: 9.0, Loss: 3.492441415786743
+Episode 10: Reward: 9.0, Loss: 3.4680328369140625
+Episode 11: Reward: 11.0, Loss: 3.4171249866485596
+Episode 12: Reward: 11.0, Loss: 3.3053793907165527
+Episode 13: Reward: 11.0, Loss: 3.249671459197998
+Episode 14: Reward: 9.0, Loss: 3.3148984909057617
+Episode 15: Reward: 13.0, Loss: 3.1414527893066406
+Episode 16: Reward: 13.0, Loss: 3.15140962600708
+Episode 17: Reward: 12.0, Loss: 2.9590859413146973
+Episode 18: Reward: 13.0, Loss: 2.8104190826416016
+Episode 19: Reward: 15.0, Loss: 2.827524185180664
+Episode 20: Reward: 11.0, Loss: 2.7496652603149414
+Episode 21: Reward: 13.0, Loss: 2.512683153152466
+Episode 22: Reward: 14.0, Loss: 2.462143898010254
+Episode 23: Reward: 30.0, Loss: 2.114675998687744
+Episode 24: Reward: 65.0, Loss: 1.5134496688842773
+Episode 25: Reward: 54.0, Loss: 1.6888973712921143
+Episode 26: Reward: 9.0, Loss: 1.4670127630233765
+Episode 27: Reward: 26.0, Loss: 1.5344760417938232
+Episode 28: Reward: 10.0, Loss: 1.2333378791809082
+Episode 29: Reward: 9.0, Loss: 1.6119846105575562
+Episode 30: Reward: 11.0, Loss: 1.5579890012741089
+Episode 31: Reward: 9.0, Loss: 1.481586217880249
+Episode 32: Reward: 9.0, Loss: 1.3854440450668335
+Episode 33: Reward: 8.0, Loss: 1.142085075378418
+Episode 34: Reward: 9.0, Loss: 1.2438112497329712
+Episode 35: Reward: 9.0, Loss: 1.399964451789856
+Episode 36: Reward: 8.0, Loss: 1.3545156717300415
+Episode 37: Reward: 10.0, Loss: 1.1465387344360352
+Episode 38: Reward: 9.0, Loss: 0.9763616323471069
+Episode 39: Reward: 11.0, Loss: 1.097642183303833
+Episode 40: Reward: 11.0, Loss: 1.0033302307128906
+Episode 41: Reward: 10.0, Loss: 1.0067996978759766
+Episode 42: Reward: 11.0, Loss: 0.887231707572937
+Episode 43: Reward: 12.0, Loss: 1.02994966506958
+Episode 44: Reward: 10.0, Loss: 0.910101056098938
+Episode 45: Reward: 10.0, Loss: 0.7503788471221924
+Episode 46: Reward: 9.0, Loss: 0.9295294284820557
+Episode 47: Reward: 10.0, Loss: 0.9267827272415161
+Episode 48: Reward: 9.0, Loss: 0.7610912919044495
+Episode 49: Reward: 9.0, Loss: 0.9460168480873108
+Episode 50: Reward: 10.0, Loss: 0.8316022157669067
+Episode 51: Reward: 8.0, Loss: 0.867234468460083
+Episode 52: Reward: 10.0, Loss: 0.6622207164764404
+Episode 53: Reward: 10.0, Loss: 0.8613804578781128
+Episode 54: Reward: 11.0, Loss: 0.8186360597610474
+Episode 55: Reward: 9.0, Loss: 0.7102342247962952
+Episode 56: Reward: 10.0, Loss: 0.702985942363739
+Episode 57: Reward: 8.0, Loss: 0.8924912214279175
+Episode 58: Reward: 8.0, Loss: 0.6850261688232422
+Episode 59: Reward: 11.0, Loss: 0.7053365707397461
+Episode 60: Reward: 11.0, Loss: 0.7000905275344849
+Episode 61: Reward: 10.0, Loss: 0.7104209661483765
+Episode 62: Reward: 10.0, Loss: 0.6476427912712097
+Episode 63: Reward: 10.0, Loss: 0.741446316242218
+Episode 64: Reward: 13.0, Loss: 0.6014512181282043
+Episode 65: Reward: 12.0, Loss: 0.6515980958938599
+Episode 66: Reward: 11.0, Loss: 0.688225269317627
+Episode 67: Reward: 12.0, Loss: 0.673621416091919
+Episode 68: Reward: 9.0, Loss: 0.7592689990997314
+Episode 69: Reward: 10.0, Loss: 0.7007230520248413
+Episode 70: Reward: 10.0, Loss: 0.8024444580078125
+Episode 71: Reward: 10.0, Loss: 0.7054412364959717
+Episode 72: Reward: 12.0, Loss: 0.6581572890281677
+Episode 73: Reward: 9.0, Loss: 0.6768378615379333
+Episode 74: Reward: 47.0, Loss: 0.6106204986572266
+Episode 75: Reward: 64.0, Loss: 0.7400158047676086
+Episode 76: Reward: 82.0, Loss: 0.5821086168289185
+Episode 77: Reward: 56.0, Loss: 0.622899055480957
+Episode 78: Reward: 391.0, Loss: 0.5773831009864807
+Episode 79: Reward: 114.0, Loss: 0.508296012878418
+Episode 80: Reward: 157.0, Loss: 0.4978307783603668
+Episode 81: Reward: 198.0, Loss: 0.47681668400764465
+Episode 82: Reward: 147.0, Loss: 0.49661535024642944
+Episode 83: Reward: 166.0, Loss: 0.7476863861083984
+Episode 84: Reward: 178.0, Loss: 0.41408810019493103
+Episode 85: Reward: 134.0, Loss: 0.3933257758617401
+Episode 86: Reward: 166.0, Loss: 0.42727434635162354
+Episode 87: Reward: 142.0, Loss: 0.48702505230903625
+Episode 88: Reward: 154.0, Loss: 0.6128127574920654
+Episode 89: Reward: 236.0, Loss: 0.626754641532898
+Episode 90: Reward: 144.0, Loss: 0.41073477268218994
+Episode 91: Reward: 171.0, Loss: 0.5564229488372803
+Episode 92: Reward: 198.0, Loss: 0.41339021921157837
+Episode 93: Reward: 23.0, Loss: 0.3007569909095764
+Episode 94: Reward: 179.0, Loss: 0.30384209752082825
+Episode 95: Reward: 254.0, Loss: 0.3015758991241455
+Episode 96: Reward: 139.0, Loss: 0.34149399399757385
+Episode 97: Reward: 170.0, Loss: 0.2590702772140503
+Episode 98: Reward: 255.0, Loss: 0.3933408856391907
+Episode 99: Reward: 10.0, Loss: 0.38228774070739746
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 169, in <module>
+    if (episode + 1) % evaluation_freq == 0:
+                     ^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 115, in evaluate_policy
+    next_state, reward, done, _ = env.step(action)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)

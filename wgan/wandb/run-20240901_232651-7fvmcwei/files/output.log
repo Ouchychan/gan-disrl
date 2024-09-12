@@ -1,0 +1,102 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\activations\leaky_relu.py:41: UserWarning: Argument `alpha` is deprecated. Use `negative_slope` instead.
+  warnings.warn(
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 62ms/step
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_train_function.<locals>.one_step_on_iterator at 0x00000195E41C77E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_train_function.<locals>.one_step_on_iterator at 0x00000195E5A1DD00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Epoch 0/10000 - D Loss Real: 0.8556691408157349 - D Loss Fake: 0.7187885046005249 - G Loss: [array(0.7187885, dtype=float32), array(0.7187885, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 17ms/step
+Epoch 1/10000 - D Loss Real: 0.5764749646186829 - D Loss Fake: 0.613236665725708 - G Loss: [array(0.61323667, dtype=float32), array(0.61323667, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 2/10000 - D Loss Real: 0.5113340020179749 - D Loss Fake: 0.5872066020965576 - G Loss: [array(0.5872066, dtype=float32), array(0.5872066, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 18ms/step
+Epoch 3/10000 - D Loss Real: 0.5185920000076294 - D Loss Fake: 0.5805856585502625 - G Loss: [array(0.58058566, dtype=float32), array(0.58058566, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 17ms/step
+Epoch 4/10000 - D Loss Real: 0.5233761668205261 - D Loss Fake: 0.5842664241790771 - G Loss: [array(0.5842664, dtype=float32), array(0.5842664, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 5/10000 - D Loss Real: 0.5354645848274231 - D Loss Fake: 0.5757398009300232 - G Loss: [array(0.5757398, dtype=float32), array(0.5757398, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 6/10000 - D Loss Real: 0.5342468619346619 - D Loss Fake: 0.5874580144882202 - G Loss: [array(0.587458, dtype=float32), array(0.587458, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 7/10000 - D Loss Real: 0.5511195659637451 - D Loss Fake: 0.6000821590423584 - G Loss: [array(0.60008216, dtype=float32), array(0.60008216, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 13ms/step
+Epoch 8/10000 - D Loss Real: 0.5660197138786316 - D Loss Fake: 0.6130940914154053 - G Loss: [array(0.6130941, dtype=float32), array(0.6130941, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 9/10000 - D Loss Real: 0.5816776752471924 - D Loss Fake: 0.6261195540428162 - G Loss: [array(0.62611955, dtype=float32), array(0.62611955, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 10/10000 - D Loss Real: 0.5973460674285889 - D Loss Fake: 0.6438440084457397 - G Loss: [array(0.643844, dtype=float32), array(0.643844, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 11/10000 - D Loss Real: 0.6167141199111938 - D Loss Fake: 0.6555349230766296 - G Loss: [array(0.6555349, dtype=float32), array(0.6555349, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 13ms/step
+Epoch 12/10000 - D Loss Real: 0.6297776103019714 - D Loss Fake: 0.663644552230835 - G Loss: [array(0.66364455, dtype=float32), array(0.66364455, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 13/10000 - D Loss Real: 0.6400986313819885 - D Loss Fake: 0.6692756414413452 - G Loss: [array(0.66927564, dtype=float32), array(0.66927564, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 14/10000 - D Loss Real: 0.6467342376708984 - D Loss Fake: 0.6794547438621521 - G Loss: [array(0.67945474, dtype=float32), array(0.67945474, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 15/10000 - D Loss Real: 0.657940685749054 - D Loss Fake: 0.6904830932617188 - G Loss: [array(0.6904831, dtype=float32), array(0.6904831, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 16ms/step
+Epoch 16/10000 - D Loss Real: 0.6701557636260986 - D Loss Fake: 0.6979433298110962 - G Loss: [array(0.69794333, dtype=float32), array(0.69794333, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 17/10000 - D Loss Real: 0.6783047914505005 - D Loss Fake: 0.7101942896842957 - G Loss: [array(0.7101943, dtype=float32), array(0.7101943, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 17ms/step
+Epoch 18/10000 - D Loss Real: 0.6914718747138977 - D Loss Fake: 0.7175873517990112 - G Loss: [array(0.71758735, dtype=float32), array(0.71758735, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 19/10000 - D Loss Real: 0.699419379234314 - D Loss Fake: 0.7274391055107117 - G Loss: [array(0.7274391, dtype=float32), array(0.7274391, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 13ms/step
+Epoch 20/10000 - D Loss Real: 0.7099909782409668 - D Loss Fake: 0.7366213202476501 - G Loss: [array(0.7366213, dtype=float32), array(0.7366213, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 18ms/step
+Epoch 21/10000 - D Loss Real: 0.7198227047920227 - D Loss Fake: 0.7429193258285522 - G Loss: [array(0.7429193, dtype=float32), array(0.7429193, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 22/10000 - D Loss Real: 0.7267699241638184 - D Loss Fake: 0.7482189536094666 - G Loss: [array(0.74821895, dtype=float32), array(0.74821895, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 18ms/step
+Epoch 23/10000 - D Loss Real: 0.732509434223175 - D Loss Fake: 0.7556700110435486 - G Loss: [array(0.75567, dtype=float32), array(0.75567, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 24/10000 - D Loss Real: 0.7404367327690125 - D Loss Fake: 0.7607064843177795 - G Loss: [array(0.7607065, dtype=float32), array(0.7607065, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 15ms/step
+Epoch 25/10000 - D Loss Real: 0.7459673285484314 - D Loss Fake: 0.7658836841583252 - G Loss: [array(0.7658837, dtype=float32), array(0.7658837, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 12ms/step
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 115, in <module>
+    train_gan()
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 80, in train_gan
+    d_loss_fake = discriminator.train_on_batch(fake_images, np.zeros((batch_size, 1)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 551, in train_on_batch
+    logs = self.train_function(data())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 833, in __call__
+    result = self._call(*args, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 878, in _call
+    results = tracing_compilation.call_function(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 139, in call_function
+    return function._call_flat(  # pylint: disable=protected-access
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\concrete_function.py", line 1322, in _call_flat
+    return self._inference_function.call_preflattened(args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\atomic_function.py", line 216, in call_preflattened
+    flat_outputs = self.call_flat(*args)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\polymorphic_function\atomic_function.py", line 251, in call_flat
+    outputs = self._bound_context.call_function(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\context.py", line 1552, in call_function
+    outputs = execute.execute(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\eager\execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Epoch 26/10000 - D Loss Real: 0.7515054941177368 - D Loss Fake: 0.7704781889915466 - G Loss: [array(0.7704782, dtype=float32), array(0.7704782, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 14ms/step
+Epoch 27/10000 - D Loss Real: 0.7566058039665222 - D Loss Fake: 0.7743781805038452 - G Loss: [array(0.7743782, dtype=float32), array(0.7743782, dtype=float32)]
+[1m1/1[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 12ms/step

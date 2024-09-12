@@ -1,0 +1,15 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 150, in <module>
+    train_gan(gan_generator, gan_critic, gan_optimizer_g, gan_optimizer_d, real_actions, noise_dim, batch_size, epochs)
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 85, in train_gan
+    optimizer_g.apply_gradients(zip(gradients_g, generator.trainable_variables))
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\optimizers\base_optimizer.py", line 291, in apply_gradients
+    self.apply(grads, trainable_variables)
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\optimizers\base_optimizer.py", line 344, in apply
+    grads, trainable_variables = self._filter_empty_gradients(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\optimizers\base_optimizer.py", line 676, in _filter_empty_gradients
+    raise ValueError("No gradients provided for any variable.")
+ValueError: No gradients provided for any variable.

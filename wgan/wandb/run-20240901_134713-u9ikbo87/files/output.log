@@ -1,0 +1,17 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 146, in <module>
+    train_gan(gan_generator, gan_critic, gan_optimizer_g, gan_optimizer_d, real_actions, noise_dim, batch_size, epochs)
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 75, in train_gan
+    fake_output = critic(generated_actions)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 28, in call
+    x = self.dense1(action)
+        ^^^^^^^^^^^^^^^^^^^
+ValueError: Exception encountered when calling SimpleCritic.call().
+[1mInput 0 of layer "dense_2" is incompatible with the layer: expected axis -1 of input shape to have value 1, but received input with shape (64, 2)
+Arguments received by SimpleCritic.call():
+  • action=tf.Tensor(shape=(64, 2), dtype=float32)

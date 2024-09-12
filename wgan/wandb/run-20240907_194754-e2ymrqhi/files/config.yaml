@@ -1,0 +1,47 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 10000
+batch_size:
+  desc: null
+  value: 32
+latent_dim:
+  desc: null
+  value: 100
+save_interval:
+  desc: null
+  value: 500
+checkpoint_interval:
+  desc: null
+  value: 500
+gradient_penalty_lambda:
+  desc: null
+  value: 10
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.5
+    cli_version: 0.17.8
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1725709674
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.12.5
+      5: 0.17.8
+      8:
+      - 3
+      - 5
+      13: windows-amd64

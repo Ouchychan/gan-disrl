@@ -1,0 +1,18 @@
+C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\disrl\qr-dqn.py", line 190, in <module>
+    loss = train_step(batch)  # Define loss here
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\qr-dqn.py", line 82, in train_step
+    target_quantiles = compute_target_distribution(next_states, rewards, dones)  # Shape: [batch_size, num_quantiles]
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\disrl\qr-dqn.py", line 40, in compute_target_distribution
+    target_quantiles = rewards + (1 - dones) * gamma * next_quantiles
+                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\disrl\myenv\Lib\site-packages\tensorflow\python\framework\ops.py", line 5983, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__Mul_device_/job:localhost/replica:0/task:0/device:CPU:0}} Incompatible shapes: [32,1] vs. [32,2,200] [Op:Mul] name:

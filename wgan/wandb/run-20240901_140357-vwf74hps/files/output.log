@@ -1,0 +1,20 @@
+Epoch 0:
+Generator Loss: 0.6923986673355103
+Discriminator Loss: 1.3783481121063232
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\main.py", line 49, in <module>
+    train_gan(gan_generator, gan_critic, gan_optimizer_g, gan_optimizer_d, real_actions, noise_dim, batch_size, epochs)
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 52, in train_gan
+    print("Gradients G:", [tf.reduce_sum(g).numpy() for g in gradients_g])
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\ops\weak_tensor_ops.py", line 88, in wrapper
+    return op(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\framework\constant_op.py", line 108, in convert_to_eager_tensor
+    return ops.EagerTensor(value, ctx.device_name, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Attempt to convert a value (None) with an unsupported type (<class 'NoneType'>) to a Tensor.

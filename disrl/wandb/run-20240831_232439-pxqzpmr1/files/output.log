@@ -1,0 +1,10 @@
+Action before conversion: [0 0]
+Action type: <class 'tensorflow.python.framework.ops.EagerTensor'>, shape: [2]
+Action after conversion: 0
+Step result: (array([-0.03005674, -0.17715247,  0.00860421,  0.2703518 ], dtype=float32), 1.0, False, False, {})
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 91, in <module>
+    raise ValueError("Unexpected number of values returned by env.step()")
+ValueError: Unexpected number of values returned by env.step()

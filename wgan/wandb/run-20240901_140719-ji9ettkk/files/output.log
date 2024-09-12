@@ -1,0 +1,4197 @@
+C:\Users\UMI\Desktop\myenv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Epoch 0:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72520185
+Discriminator Loss: 1.3078347
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24464427, -0.29830495, 0.46525228, 0.010624975]
+Skipping Generator Gradient Application
+Epoch 1:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72959214
+Discriminator Loss: 1.302957
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.28348333, -0.49013838, 0.50187033, 0.008907616]
+Skipping Generator Gradient Application
+Epoch 2:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7084477
+Discriminator Loss: 1.3224568
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.25890833, -0.28530622, 0.054627806, 0.019620031]
+Skipping Generator Gradient Application
+Epoch 3:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.71219397
+Discriminator Loss: 1.3186816
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23366886, -0.29753405, 0.268182, 0.018333882]
+Skipping Generator Gradient Application
+Epoch 4:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7151313
+Discriminator Loss: 1.3147705
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.26232374, -0.26588273, 0.1456916, 0.017225593]
+Skipping Generator Gradient Application
+Epoch 5:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7339303
+Discriminator Loss: 1.2962375
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2772084, -0.48334014, 0.47548723, 0.008511633]
+Skipping Generator Gradient Application
+Epoch 6:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73059165
+Discriminator Loss: 1.2981987
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.3231984, -0.5407649, 0.19134057, 0.010442138]
+Skipping Generator Gradient Application
+Epoch 7:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72123927
+Discriminator Loss: 1.3073561
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.25923768, -0.40268072, 0.28617954, 0.015678555]
+Skipping Generator Gradient Application
+Epoch 8:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72470194
+Discriminator Loss: 1.3034358
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2647321, -0.39998823, 0.3072517, 0.014447004]
+Skipping Generator Gradient Application
+Epoch 9:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72400343
+Discriminator Loss: 1.3032026
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27168006, -0.40915623, 0.22699186, 0.015181392]
+Skipping Generator Gradient Application
+Epoch 10:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72401667
+Discriminator Loss: 1.3022256
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.28204826, -0.38737136, 0.14894438, 0.015542388]
+Skipping Generator Gradient Application
+Epoch 11:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7241641
+Discriminator Loss: 1.302141
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.25161546, -0.37354854, 0.28107506, 0.016100258]
+Skipping Generator Gradient Application
+Epoch 12:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7170409
+Discriminator Loss: 1.3078597
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2647225, -0.34753335, 0.046419583, 0.019913316]
+Skipping Generator Gradient Application
+Epoch 13:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.720317
+Discriminator Loss: 1.3046641
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.22658056, -0.3402373, 0.2788639, 0.018910974]
+Skipping Generator Gradient Application
+Epoch 14:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.72896636
+Discriminator Loss: 1.2956926
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24183545, -0.41849226, 0.3378736, 0.015115559]
+Skipping Generator Gradient Application
+Epoch 15:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.734693
+Discriminator Loss: 1.2891431
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.26992542, -0.5117615, 0.2668277, 0.012660772]
+Skipping Generator Gradient Application
+Epoch 16:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73907673
+Discriminator Loss: 1.2846075
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.26973483, -0.53036726, 0.31701875, 0.011048019]
+Skipping Generator Gradient Application
+Epoch 17:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73152626
+Discriminator Loss: 1.2904847
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.28317422, -0.4278348, 0.10031049, 0.015006602]
+Skipping Generator Gradient Application
+Epoch 18:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7204828
+Discriminator Loss: 1.3017762
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.20846058, -0.3785604, 0.24340042, 0.021176219]
+Skipping Generator Gradient Application
+Epoch 19:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7438247
+Discriminator Loss: 1.2781265
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.26770923, -0.56230295, 0.3173707, 0.010080725]
+Skipping Generator Gradient Application
+Epoch 20:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7346561
+Discriminator Loss: 1.2872703
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21631661, -0.4010648, 0.36194247, 0.015271813]
+Skipping Generator Gradient Application
+Epoch 21:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7309379
+Discriminator Loss: 1.2895582
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23561409, -0.37772733, 0.2062664, 0.017368913]
+Skipping Generator Gradient Application
+Epoch 22:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7243234
+Discriminator Loss: 1.2952785
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.22067058, -0.32497513, 0.15608233, 0.02104202]
+Skipping Generator Gradient Application
+Epoch 23:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.726648
+Discriminator Loss: 1.2926778
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21451026, -0.39035338, 0.18370697, 0.020414293]
+Skipping Generator Gradient Application
+Epoch 24:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.733238
+Discriminator Loss: 1.2854521
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.22312236, -0.45409107, 0.21035485, 0.01755932]
+Skipping Generator Gradient Application
+Epoch 25:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7294738
+Discriminator Loss: 1.2892321
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23106006, -0.39923847, 0.2783734, 0.020028085]
+Skipping Generator Gradient Application
+Epoch 26:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73185176
+Discriminator Loss: 1.286186
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23608086, -0.4739279, 0.24865338, 0.019257903]
+Skipping Generator Gradient Application
+Epoch 27:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7330645
+Discriminator Loss: 1.2839866
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.26966915, -0.41722023, 0.13591865, 0.018993467]
+Skipping Generator Gradient Application
+Epoch 28:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73852676
+Discriminator Loss: 1.2789707
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23457342, -0.54850775, 0.29759857, 0.016935408]
+Skipping Generator Gradient Application
+Epoch 29:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7368411
+Discriminator Loss: 1.2792112
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27867186, -0.42527384, 0.11591927, 0.0180009]
+Skipping Generator Gradient Application
+Epoch 30:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.749723
+Discriminator Loss: 1.2672701
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2576052, -0.5465859, 0.3230695, 0.012407273]
+Skipping Generator Gradient Application
+Epoch 31:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7500751
+Discriminator Loss: 1.2661214
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27578393, -0.49997783, 0.2635011, 0.012612134]
+Skipping Generator Gradient Application
+Epoch 32:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7471068
+Discriminator Loss: 1.2675278
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2932191, -0.5437923, 0.12071361, 0.014279127]
+Skipping Generator Gradient Application
+Epoch 33:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7581915
+Discriminator Loss: 1.2580205
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.25223574, -0.61324036, 0.36703864, 0.009747922]
+Skipping Generator Gradient Application
+Epoch 34:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7422186
+Discriminator Loss: 1.272049
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24268726, -0.43946633, 0.22148198, 0.017804682]
+Skipping Generator Gradient Application
+Epoch 35:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7493162
+Discriminator Loss: 1.2642093
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27892953, -0.5590648, 0.13869378, 0.01467675]
+Skipping Generator Gradient Application
+Epoch 36:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73978114
+Discriminator Loss: 1.2732267
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24023037, -0.36333773, 0.1815573, 0.019889683]
+Skipping Generator Gradient Application
+Epoch 37:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7351979
+Discriminator Loss: 1.2774875
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.20768978, -0.4309693, 0.20150988, 0.022666097]
+Skipping Generator Gradient Application
+Epoch 38:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7425766
+Discriminator Loss: 1.2704766
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2173062, -0.3865388, 0.24655095, 0.019704312]
+Skipping Generator Gradient Application
+Epoch 39:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7404624
+Discriminator Loss: 1.2698367
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2677408, -0.52603036, -0.0052668154, 0.020611942]
+Skipping Generator Gradient Application
+Epoch 40:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.74757147
+Discriminator Loss: 1.2640095
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.22116499, -0.57372904, 0.20015982, 0.017975956]
+Skipping Generator Gradient Application
+Epoch 41:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7558119
+Discriminator Loss: 1.2544482
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2860304, -0.58800125, 0.066560626, 0.014120877]
+Skipping Generator Gradient Application
+Epoch 42:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75293565
+Discriminator Loss: 1.2567105
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27426103, -0.5959205, 0.053056195, 0.01598069]
+Skipping Generator Gradient Application
+Epoch 43:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75769275
+Discriminator Loss: 1.2514646
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.29820567, -0.7026185, 0.045116484, 0.014076591]
+Skipping Generator Gradient Application
+Epoch 44:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.77674234
+Discriminator Loss: 1.2358785
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23147446, -0.7369182, 0.4245205, 0.0060766637]
+Skipping Generator Gradient Application
+Epoch 45:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.79286146
+Discriminator Loss: 1.2184324
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.28904107, -0.90065813, 0.32448003, -0.001691401]
+Skipping Generator Gradient Application
+Epoch 46:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75199836
+Discriminator Loss: 1.255471
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.28553045, -0.5825397, 0.024126709, 0.018267393]
+Skipping Generator Gradient Application
+Epoch 47:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75725865
+Discriminator Loss: 1.2508037
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.25162402, -0.64935416, 0.120665, 0.016401261]
+Skipping Generator Gradient Application
+Epoch 48:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7613479
+Discriminator Loss: 1.2484212
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.19467592, -0.6431073, 0.3207619, 0.015405327]
+Skipping Generator Gradient Application
+Epoch 49:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7489555
+Discriminator Loss: 1.2594774
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.19096524, -0.55206996, 0.23494712, 0.021838605]
+Skipping Generator Gradient Application
+Epoch 50:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.77176154
+Discriminator Loss: 1.2365744
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24342614, -0.69045985, 0.22740944, 0.011080027]
+Skipping Generator Gradient Application
+Epoch 51:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7817069
+Discriminator Loss: 1.2257097
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27032608, -0.84960496, 0.16845585, 0.0064798594]
+Skipping Generator Gradient Application
+Epoch 52:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7601906
+Discriminator Loss: 1.2459297
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2296759, -0.67457354, 0.13887791, 0.017423868]
+Skipping Generator Gradient Application
+Epoch 53:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75941944
+Discriminator Loss: 1.2456839
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.25256342, -0.66275847, 0.06183771, 0.018174917]
+Skipping Generator Gradient Application
+Epoch 54:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7493023
+Discriminator Loss: 1.2569419
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.16327713, -0.48777956, 0.2527211, 0.024094969]
+Skipping Generator Gradient Application
+Epoch 55:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7635746
+Discriminator Loss: 1.2419066
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.23653343, -0.6339302, 0.120111465, 0.017413855]
+Skipping Generator Gradient Application
+Epoch 56:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7917652
+Discriminator Loss: 1.2152605
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2194437, -0.8822528, 0.3055151, 0.0043307543]
+Skipping Generator Gradient Application
+Epoch 57:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.751935
+Discriminator Loss: 1.2530164
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.17276114, -0.5584389, 0.19496077, 0.024198294]
+Skipping Generator Gradient Application
+Epoch 58:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7745844
+Discriminator Loss: 1.2308464
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.22785404, -0.6636772, 0.18183601, 0.013718426]
+Skipping Generator Gradient Application
+Epoch 59:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.76928174
+Discriminator Loss: 1.2368057
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.16967118, -0.62767994, 0.28606215, 0.017077416]
+Skipping Generator Gradient Application
+Epoch 60:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.73898005
+Discriminator Loss: 1.2627172
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.19044161, -0.48548114, 0.035195008, 0.03155923]
+Skipping Generator Gradient Application
+Epoch 61:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.77467126
+Discriminator Loss: 1.2295346
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18695614, -0.7136893, 0.2233288, 0.015022099]
+Skipping Generator Gradient Application
+Epoch 62:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7740991
+Discriminator Loss: 1.2292111
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21007252, -0.68964314, 0.14237322, 0.015677512]
+Skipping Generator Gradient Application
+Epoch 63:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.78599966
+Discriminator Loss: 1.2188685
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.19328813, -0.7721905, 0.25145042, 0.010769963]
+Skipping Generator Gradient Application
+Epoch 64:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7730628
+Discriminator Loss: 1.2286841
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21358968, -0.74163437, 0.11474241, 0.016886294]
+Skipping Generator Gradient Application
+Epoch 65:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.76857764
+Discriminator Loss: 1.2321978
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21123526, -0.6841068, 0.07249527, 0.019463599]
+Skipping Generator Gradient Application
+Epoch 66:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.78301334
+Discriminator Loss: 1.2214863
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.14807028, -0.7005151, 0.32575092, 0.013865113]
+Skipping Generator Gradient Application
+Epoch 67:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75339216
+Discriminator Loss: 1.2468477
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18397218, -0.49800366, 0.07600516, 0.028026074]
+Skipping Generator Gradient Application
+Epoch 68:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.76233435
+Discriminator Loss: 1.2378986
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18599346, -0.6209879, 0.09571968, 0.024139851]
+Skipping Generator Gradient Application
+Epoch 69:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.78321576
+Discriminator Loss: 1.2188559
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.1659391, -0.7410829, 0.22275591, 0.014803141]
+Skipping Generator Gradient Application
+Epoch 70:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.74524367
+Discriminator Loss: 1.253783
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.13816425, -0.5258961, 0.122099414, 0.033391863]
+Skipping Generator Gradient Application
+Epoch 71:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.76279724
+Discriminator Loss: 1.2363931
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.17106432, -0.6581645, 0.08705488, 0.025294483]
+Skipping Generator Gradient Application
+Epoch 72:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7852125
+Discriminator Loss: 1.2144568
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21439789, -0.7803557, 0.08318821, 0.014867723]
+Skipping Generator Gradient Application
+Epoch 73:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7717535
+Discriminator Loss: 1.2278869
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.16722868, -0.6355164, 0.13666624, 0.022096306]
+Skipping Generator Gradient Application
+Epoch 74:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.79083884
+Discriminator Loss: 1.2103288
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18271485, -0.72286236, 0.19080874, 0.013593227]
+Skipping Generator Gradient Application
+Epoch 75:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.75996727
+Discriminator Loss: 1.2393777
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.103185, -0.6037739, 0.21267961, 0.02887404]
+Skipping Generator Gradient Application
+Epoch 76:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7612748
+Discriminator Loss: 1.2348723
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2029561, -0.6089179, -0.0023946613, 0.027988285]
+Skipping Generator Gradient Application
+Epoch 77:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7867389
+Discriminator Loss: 1.2102957
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.2355952, -0.8145126, 0.016370177, 0.016139835]
+Skipping Generator Gradient Application
+Epoch 78:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8066089
+Discriminator Loss: 1.1947527
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.1842108, -0.83668125, 0.22413796, 0.00797832]
+Skipping Generator Gradient Application
+Epoch 79:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.77987117
+Discriminator Loss: 1.2164617
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.20623933, -0.8212946, 0.040622987, 0.020390421]
+Skipping Generator Gradient Application
+Epoch 80:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7978049
+Discriminator Loss: 1.2052102
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.110629566, -0.74238074, 0.34939143, 0.013893396]
+Skipping Generator Gradient Application
+Epoch 81:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8134068
+Discriminator Loss: 1.1870322
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.19669577, -0.9251692, 0.19343379, 0.006031543]
+Skipping Generator Gradient Application
+Epoch 82:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8031891
+Discriminator Loss: 1.196604
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.1810835, -0.822451, 0.19573809, 0.011480957]
+Skipping Generator Gradient Application
+Epoch 83:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.80204356
+Discriminator Loss: 1.1973268
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.19203511, -0.78393066, 0.14925787, 0.01256305]
+Skipping Generator Gradient Application
+Epoch 84:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7691128
+Discriminator Loss: 1.2248397
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18069416, -0.73802364, 0.007606894, 0.027900934]
+Skipping Generator Gradient Application
+Epoch 85:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7803081
+Discriminator Loss: 1.2120547
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24978714, -0.7664641, -0.11378819, 0.02257201]
+Skipping Generator Gradient Application
+Epoch 86:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7695905
+Discriminator Loss: 1.22529
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.15402272, -0.61429054, 0.08261374, 0.029051661]
+Skipping Generator Gradient Application
+Epoch 87:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8064598
+Discriminator Loss: 1.1899245
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.21836604, -0.85611856, 0.06064187, 0.011803687]
+Skipping Generator Gradient Application
+Epoch 88:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.81158316
+Discriminator Loss: 1.18627
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.16518429, -0.9510404, 0.1608068, 0.010138094]
+Skipping Generator Gradient Application
+Epoch 89:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8057876
+Discriminator Loss: 1.1884699
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.20887807, -0.9631966, 0.009594858, 0.012616456]
+Skipping Generator Gradient Application
+Epoch 90:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7960829
+Discriminator Loss: 1.1959605
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.24767114, -0.85593927, -0.10273524, 0.01746887]
+Skipping Generator Gradient Application
+Epoch 91:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7812071
+Discriminator Loss: 1.2120552
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.17352787, -0.7030104, 0.038453743, 0.025702566]
+Skipping Generator Gradient Application
+Epoch 92:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7693954
+Discriminator Loss: 1.2221372
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18469813, -0.64563465, -0.014275432, 0.031675965]
+Skipping Generator Gradient Application
+Epoch 93:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.78941125
+Discriminator Loss: 1.204
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.20456935, -0.68249774, 0.010210335, 0.02291289]
+Skipping Generator Gradient Application
+Epoch 94:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8042267
+Discriminator Loss: 1.1920772
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.13314024, -0.8318329, 0.15818776, 0.016780585]
+Skipping Generator Gradient Application
+Epoch 95:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.80989033
+Discriminator Loss: 1.1868906
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.14439723, -0.83624434, 0.15340829, 0.014724702]
+Skipping Generator Gradient Application
+Epoch 96:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7995986
+Discriminator Loss: 1.1883974
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.27474117, -0.91315186, -0.19069773, 0.017978787]
+Skipping Generator Gradient Application
+Epoch 97:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7676253
+Discriminator Loss: 1.2251296
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.11609737, -0.53404295, 0.09466642, 0.035673767]
+Skipping Generator Gradient Application
+Epoch 98:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8088702
+Discriminator Loss: 1.1868143
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.14434156, -0.869075, 0.12551716, 0.016538888]
+Skipping Generator Gradient Application
+Epoch 99:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8320626
+Discriminator Loss: 1.1652093
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12937677, -1.0229161, 0.1752861, 0.0060346425]
+Skipping Generator Gradient Application
+Epoch 100:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7711706
+Discriminator Loss: 1.2186403
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.15273094, -0.5970055, -0.0058370754, 0.03474629]
+Skipping Generator Gradient Application
+Epoch 101:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7997178
+Discriminator Loss: 1.1929586
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18743496, -0.7644299, 0.021166906, 0.022032022]
+Skipping Generator Gradient Application
+Epoch 102:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8065714
+Discriminator Loss: 1.1875101
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.15343109, -0.8083236, 0.08107109, 0.019530058]
+Skipping Generator Gradient Application
+Epoch 103:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8236375
+Discriminator Loss: 1.173069
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.093237154, -0.97927517, 0.19295606, 0.012218386]
+Skipping Generator Gradient Application
+Epoch 104:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8138295
+Discriminator Loss: 1.18168
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.10147458, -0.8880769, 0.16599588, 0.017340273]
+Skipping Generator Gradient Application
+Epoch 105:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8585322
+Discriminator Loss: 1.1406891
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12974742, -1.1286922, 0.18174328, -0.0031269193]
+Skipping Generator Gradient Application
+Epoch 106:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.79098344
+Discriminator Loss: 1.2002528
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.14446244, -0.71801955, 0.056751236, 0.028687775]
+Skipping Generator Gradient Application
+Epoch 107:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8066096
+Discriminator Loss: 1.184345
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.121426456, -0.8666104, 0.06343801, 0.021327883]
+Skipping Generator Gradient Application
+Epoch 108:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8111008
+Discriminator Loss: 1.1870202
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.059504464, -0.69290036, 0.24976136, 0.021807104]
+Skipping Generator Gradient Application
+Epoch 109:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7991415
+Discriminator Loss: 1.1895096
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.16923067, -0.8209262, -0.02677773, 0.025643975]
+Skipping Generator Gradient Application
+Epoch 110:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.83541715
+Discriminator Loss: 1.1567976
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.16525885, -1.0125117, 0.025653094, 0.009220779]
+Skipping Generator Gradient Application
+Epoch 111:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7884979
+Discriminator Loss: 1.2028122
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.07704085, -0.6955896, 0.1327292, 0.032645404]
+Skipping Generator Gradient Application
+Epoch 112:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8052329
+Discriminator Loss: 1.1874886
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.079324044, -0.79145956, 0.14855905, 0.025307655]
+Skipping Generator Gradient Application
+Epoch 113:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7787883
+Discriminator Loss: 1.2081833
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12638845, -0.5983741, -0.0058267936, 0.03745991]
+Skipping Generator Gradient Application
+Epoch 114:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.82144856
+Discriminator Loss: 1.1693579
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12757203, -0.94576824, 0.041783437, 0.01790461]
+Skipping Generator Gradient Application
+Epoch 115:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.85617334
+Discriminator Loss: 1.1409745
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12948966, -1.040262, 0.12873231, 0.0031625628]
+Skipping Generator Gradient Application
+Epoch 116:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8268661
+Discriminator Loss: 1.1701213
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.05427496, -0.83936876, 0.21470091, 0.018007606]
+Skipping Generator Gradient Application
+Epoch 117:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.88437915
+Discriminator Loss: 1.1176956
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08411047, -1.1879978, 0.22982052, -0.008354694]
+Skipping Generator Gradient Application
+Epoch 118:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.83137035
+Discriminator Loss: 1.156338
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.17456196, -1.0411355, -0.05545473, 0.014375925]
+Skipping Generator Gradient Application
+Epoch 119:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.78651416
+Discriminator Loss: 1.2017024
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.10238956, -0.6157639, 0.058153912, 0.03734365]
+Skipping Generator Gradient Application
+Epoch 120:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8071146
+Discriminator Loss: 1.1832056
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08127042, -0.742626, 0.08842313, 0.028218508]
+Skipping Generator Gradient Application
+Epoch 121:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8196249
+Discriminator Loss: 1.1714827
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.087912396, -0.84851754, 0.092259504, 0.022827506]
+Skipping Generator Gradient Application
+Epoch 122:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8565571
+Discriminator Loss: 1.1384664
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.09379918, -1.064652, 0.11247058, 0.006255448]
+Skipping Generator Gradient Application
+Epoch 123:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7994462
+Discriminator Loss: 1.1869308
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.091846794, -0.79332507, 0.025211774, 0.032450974]
+Skipping Generator Gradient Application
+Epoch 124:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.86871225
+Discriminator Loss: 1.1227086
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.1461448, -1.2053051, -0.0017191917, 0.00035735965]
+Skipping Generator Gradient Application
+Epoch 125:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7999798
+Discriminator Loss: 1.1912923
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.010059373, -0.66559887, 0.18920971, 0.034639984]
+Skipping Generator Gradient Application
+Epoch 126:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.83047044
+Discriminator Loss: 1.1634369
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.02538185, -0.8568482, 0.17328568, 0.02095306]
+Skipping Generator Gradient Application
+Epoch 127:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.81974554
+Discriminator Loss: 1.1692057
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.09193654, -0.8300447, 0.06204216, 0.025492638]
+Skipping Generator Gradient Application
+Epoch 128:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.84340835
+Discriminator Loss: 1.1470828
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.13452476, -0.9844562, 0.020494014, 0.014931887]
+Skipping Generator Gradient Application
+Epoch 129:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8508149
+Discriminator Loss: 1.1399715
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.1119661, -1.0805159, 0.043199196, 0.011779308]
+Skipping Generator Gradient Application
+Epoch 130:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8188326
+Discriminator Loss: 1.1695462
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08727381, -0.83719045, 0.050514817, 0.02740562]
+Skipping Generator Gradient Application
+Epoch 131:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.83944327
+Discriminator Loss: 1.1489264
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.13562223, -0.97946274, -0.019354358, 0.01794973]
+Skipping Generator Gradient Application
+Epoch 132:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.86979616
+Discriminator Loss: 1.1271677
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.043380015, -1.1096947, 0.15231448, 0.0058092475]
+Skipping Generator Gradient Application
+Epoch 133:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7763431
+Discriminator Loss: 1.2093265
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.009711071, -0.5341734, 0.13316008, 0.049207628]
+Skipping Generator Gradient Application
+Epoch 134:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.87698853
+Discriminator Loss: 1.1169615
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12268049, -1.1474369, 0.0454112, 0.0026513934]
+Skipping Generator Gradient Application
+Epoch 135:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.80016947
+Discriminator Loss: 1.1893445
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.016563395, -0.66051996, 0.16043031, 0.039672524]
+Skipping Generator Gradient Application
+Epoch 136:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8580008
+Discriminator Loss: 1.1361116
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.094721034, -0.86240256, 0.057112105, 0.013394594]
+Skipping Generator Gradient Application
+Epoch 137:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.78490955
+Discriminator Loss: 1.2013808
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.011278622, -0.5213426, 0.12356304, 0.047426343]
+Skipping Generator Gradient Application
+Epoch 138:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8263221
+Discriminator Loss: 1.1613013
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.06987397, -0.78890455, 0.04432588, 0.02790013]
+Skipping Generator Gradient Application
+Epoch 139:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.84646577
+Discriminator Loss: 1.1415071
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12377987, -0.93455935, -0.01706624, 0.018780261]
+Skipping Generator Gradient Application
+Epoch 140:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8024582
+Discriminator Loss: 1.1804476
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.09417058, -0.64685726, -0.013646968, 0.039521903]
+Skipping Generator Gradient Application
+Epoch 141:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.85878205
+Discriminator Loss: 1.1372631
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.00812282, -0.95891476, 0.17067719, 0.015902907]
+Skipping Generator Gradient Application
+Epoch 142:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.81763506
+Discriminator Loss: 1.1708784
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.04536399, -0.7066342, 0.09102298, 0.034599423]
+Skipping Generator Gradient Application
+Epoch 143:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.82836276
+Discriminator Loss: 1.1597123
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.06406661, -0.744806, 0.06401067, 0.029728562]
+Skipping Generator Gradient Application
+Epoch 144:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.86844385
+Discriminator Loss: 1.1252968
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.0949634, -0.9654082, 0.051548705, 0.012253702]
+Skipping Generator Gradient Application
+Epoch 145:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8633736
+Discriminator Loss: 1.131985
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.029204912, -0.97995514, 0.13562393, 0.01545158]
+Skipping Generator Gradient Application
+Epoch 146:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.7893057
+Discriminator Loss: 1.1860408
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.13194841, -0.67939806, -0.08031704, 0.04676786]
+Skipping Generator Gradient Application
+Epoch 147:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8203344
+Discriminator Loss: 1.1692555
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.024414396, -0.6957886, 0.1341881, 0.036043614]
+Skipping Generator Gradient Application
+Epoch 148:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8283534
+Discriminator Loss: 1.1566474
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.098279014, -0.8014935, -0.0055996627, 0.031424463]
+Skipping Generator Gradient Application
+Epoch 149:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8463674
+Discriminator Loss: 1.1432405
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.05494258, -0.87474364, 0.06913827, 0.024179697]
+Skipping Generator Gradient Application
+Epoch 150:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.83362806
+Discriminator Loss: 1.1513538
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.10329023, -0.8237185, -0.01860872, 0.029828459]
+Skipping Generator Gradient Application
+Epoch 151:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8363354
+Discriminator Loss: 1.1469537
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.1226826, -0.8641267, -0.051869556, 0.028470188]
+Skipping Generator Gradient Application
+Epoch 152:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8509028
+Discriminator Loss: 1.1367716
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.09780464, -0.8996988, -0.0043712854, 0.023144573]
+Skipping Generator Gradient Application
+Epoch 153:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9050751
+Discriminator Loss: 1.0931273
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.038675748, -1.1538849, 0.069512025, -7.778406e-05]
+Skipping Generator Gradient Application
+Epoch 154:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.808187
+Discriminator Loss: 1.1791787
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.03304683, -0.5569378, 0.100981385, 0.044970006]
+Skipping Generator Gradient Application
+Epoch 155:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.82947636
+Discriminator Loss: 1.1545068
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08989431, -0.76208574, -0.0077150613, 0.034064084]
+Skipping Generator Gradient Application
+Epoch 156:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8217171
+Discriminator Loss: 1.1649588
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.013837727, -0.7178849, 0.0934722, 0.038889438]
+Skipping Generator Gradient Application
+Epoch 157:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.88290966
+Discriminator Loss: 1.1164966
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.032248467, -0.890844, 0.13325128, 0.013405949]
+Skipping Generator Gradient Application
+Epoch 158:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.85554194
+Discriminator Loss: 1.1357923
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.030260421, -0.86770934, 0.072281756, 0.024779141]
+Skipping Generator Gradient Application
+Epoch 159:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.90352666
+Discriminator Loss: 1.0910326
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.09463941, -1.171833, 0.0145763755, 0.002770573]
+Skipping Generator Gradient Application
+Epoch 160:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.903026
+Discriminator Loss: 1.0930178
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.086057894, -1.1614404, 0.024657696, 0.0039524436]
+Skipping Generator Gradient Application
+Epoch 161:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9095791
+Discriminator Loss: 1.0919948
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.011379637, -1.1083956, 0.13877314, 0.0026789904]
+Skipping Generator Gradient Application
+Epoch 162:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.86582005
+Discriminator Loss: 1.1248705
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.047580935, -0.9344762, 0.057535276, 0.021603316]
+Skipping Generator Gradient Application
+Epoch 163:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8322199
+Discriminator Loss: 1.1584494
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.013238583, -0.74214804, 0.15208733, 0.038407564]
+Skipping Generator Gradient Application
+Epoch 164:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.85137427
+Discriminator Loss: 1.1325674
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.097516395, -0.9163172, -0.041900158, 0.027857333]
+Skipping Generator Gradient Application
+Epoch 165:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.86750543
+Discriminator Loss: 1.120595
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.07546757, -0.99802756, 0.016612925, 0.021603823]
+Skipping Generator Gradient Application
+Epoch 166:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.86894655
+Discriminator Loss: 1.1284816
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.035084568, -0.9419834, 0.19376206, 0.023851067]
+Skipping Generator Gradient Application
+Epoch 167:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8764595
+Discriminator Loss: 1.1179733
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.034211036, -0.89257586, 0.08224131, 0.020135492]
+Skipping Generator Gradient Application
+Epoch 168:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.88838005
+Discriminator Loss: 1.1066363
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.008012367, -1.0671408, 0.09129667, 0.014775276]
+Skipping Generator Gradient Application
+Epoch 169:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8621243
+Discriminator Loss: 1.1340423
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.054909967, -0.81299746, 0.18372026, 0.028475404]
+Skipping Generator Gradient Application
+Epoch 170:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8941624
+Discriminator Loss: 1.1079154
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.019939905, -0.952706, 0.1822874, 0.015128255]
+Skipping Generator Gradient Application
+Epoch 171:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89078003
+Discriminator Loss: 1.1085539
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.05877611, -0.9545386, 0.1458292, 0.01643616]
+Skipping Generator Gradient Application
+Epoch 172:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8665139
+Discriminator Loss: 1.1280644
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.010027664, -0.7953834, 0.11010158, 0.027696818]
+Skipping Generator Gradient Application
+Epoch 173:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.81764066
+Discriminator Loss: 1.1702678
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.025669366, -0.5662023, 0.15227902, 0.050128877]
+Skipping Generator Gradient Application
+Epoch 174:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8689321
+Discriminator Loss: 1.1197166
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.03721548, -0.9158913, 0.014809743, 0.025876075]
+Skipping Generator Gradient Application
+Epoch 175:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8585522
+Discriminator Loss: 1.1256733
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.07248758, -0.88351035, -0.013533831, 0.030122072]
+Skipping Generator Gradient Application
+Epoch 176:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.84909135
+Discriminator Loss: 1.1351671
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.050304342, -0.8022084, 0.021187946, 0.035121262]
+Skipping Generator Gradient Application
+Epoch 177:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.895101
+Discriminator Loss: 1.0915945
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.09281109, -1.090037, -0.07479647, 0.013864368]
+Skipping Generator Gradient Application
+Epoch 178:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89436567
+Discriminator Loss: 1.1060045
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.029165942, -0.90993863, 0.13403174, 0.018912554]
+Skipping Generator Gradient Application
+Epoch 179:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.94783425
+Discriminator Loss: 1.0518873
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.05482672, -1.3348687, 0.0073823184, -0.007188618]
+Skipping Generator Gradient Application
+Epoch 180:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.85755086
+Discriminator Loss: 1.1377099
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.069711, -0.7149932, 0.17202573, 0.03629592]
+Skipping Generator Gradient Application
+Epoch 181:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8191432
+Discriminator Loss: 1.169827
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06718184, -0.5632441, 0.20129731, 0.053513765]
+Skipping Generator Gradient Application
+Epoch 182:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9426304
+Discriminator Loss: 1.0533668
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08608677, -1.2885776, -0.059456006, -0.003866136]
+Skipping Generator Gradient Application
+Epoch 183:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9022606
+Discriminator Loss: 1.1014564
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.08668752, -0.93048936, 0.21366686, 0.018102705]
+Skipping Generator Gradient Application
+Epoch 184:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.91780293
+Discriminator Loss: 1.0865027
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.047287893, -0.9537263, 0.119104974, 0.01172629]
+Skipping Generator Gradient Application
+Epoch 185:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8844704
+Discriminator Loss: 1.1074305
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.04610984, -0.8536025, 0.014004707, 0.025050044]
+Skipping Generator Gradient Application
+Epoch 186:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.88362306
+Discriminator Loss: 1.1004822
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.10118199, -1.0130858, -0.058099143, 0.023632139]
+Skipping Generator Gradient Application
+Epoch 187:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8649229
+Discriminator Loss: 1.1419468
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.19160758, -0.5710706, 0.33853793, 0.039642274]
+Skipping Generator Gradient Application
+Epoch 188:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.94450057
+Discriminator Loss: 1.0607898
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.034654696, -1.1670921, 0.10055638, 0.00077208877]
+Skipping Generator Gradient Application
+Epoch 189:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9659437
+Discriminator Loss: 1.0448585
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.028577898, -1.2427198, 0.098894835, -0.0073215663]
+Skipping Generator Gradient Application
+Epoch 190:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8954803
+Discriminator Loss: 1.1014923
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.00840801, -0.93019605, 0.1000769, 0.023704678]
+Skipping Generator Gradient Application
+Epoch 191:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.896741
+Discriminator Loss: 1.0953443
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.054798953, -0.9472748, 0.044368014, 0.022209704]
+Skipping Generator Gradient Application
+Epoch 192:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89574945
+Discriminator Loss: 1.1142528
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13161361, -0.82756954, 0.29023036, 0.02829647]
+Skipping Generator Gradient Application
+Epoch 193:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8596612
+Discriminator Loss: 1.137412
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10621676, -0.63995904, 0.23161156, 0.042491525]
+Skipping Generator Gradient Application
+Epoch 194:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.95158756
+Discriminator Loss: 1.0456653
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.108480036, -1.2362257, -0.048282787, -0.001259923]
+Skipping Generator Gradient Application
+Epoch 195:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8629595
+Discriminator Loss: 1.1298848
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06607921, -0.7195658, 0.18123132, 0.04060781]
+Skipping Generator Gradient Application
+Epoch 196:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.92306364
+Discriminator Loss: 1.0768933
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.049873687, -1.035413, 0.050114304, 0.014593989]
+Skipping Generator Gradient Application
+Epoch 197:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9112567
+Discriminator Loss: 1.0861375
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.014042648, -0.99034065, 0.0568586, 0.019898623]
+Skipping Generator Gradient Application
+Epoch 198:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.83953905
+Discriminator Loss: 1.1420898
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.027039314, -0.63173676, 0.07933279, 0.050705105]
+Skipping Generator Gradient Application
+Epoch 199:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9333502
+Discriminator Loss: 1.0712363
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.01965162, -1.0646613, 0.12531552, 0.011915147]
+Skipping Generator Gradient Application
+Epoch 200:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8965472
+Discriminator Loss: 1.1131294
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.122023374, -0.7802906, 0.28139952, 0.031852722]
+Skipping Generator Gradient Application
+Epoch 201:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.92105156
+Discriminator Loss: 1.0812869
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.0067109377, -0.9593589, 0.1025343, 0.018631786]
+Skipping Generator Gradient Application
+Epoch 202:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9535973
+Discriminator Loss: 1.0533192
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.006934209, -1.198069, 0.09284768, 0.004322052]
+Skipping Generator Gradient Application
+Epoch 203:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9266789
+Discriminator Loss: 1.0717144
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08953429, -1.0150917, 0.009863809, 0.016170084]
+Skipping Generator Gradient Application
+Epoch 204:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9204393
+Discriminator Loss: 1.0756406
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.029658172, -1.0072892, 0.02836299, 0.018455446]
+Skipping Generator Gradient Application
+Epoch 205:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9261849
+Discriminator Loss: 1.0830268
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.024535444, -0.87726176, 0.14364761, 0.020462722]
+Skipping Generator Gradient Application
+Epoch 206:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8831425
+Discriminator Loss: 1.1017642
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.18761024, -0.92970234, -0.06959661, 0.035562485]
+Skipping Generator Gradient Application
+Epoch 207:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.91723657
+Discriminator Loss: 1.0777676
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.05738318, -0.97834253, 0.028236583, 0.02117452]
+Skipping Generator Gradient Application
+Epoch 208:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93412757
+Discriminator Loss: 1.0576739
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.12173144, -1.142812, -0.05844094, 0.012819409]
+Skipping Generator Gradient Application
+Epoch 209:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8908745
+Discriminator Loss: 1.1084806
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.04515873, -0.7866988, 0.18696444, 0.03619808]
+Skipping Generator Gradient Application
+Epoch 210:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89258206
+Discriminator Loss: 1.1005743
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.04780864, -0.76975346, 0.042282954, 0.034737557]
+Skipping Generator Gradient Application
+Epoch 211:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89932996
+Discriminator Loss: 1.0902216
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.14411566, -0.8076765, -0.04273708, 0.031348884]
+Skipping Generator Gradient Application
+Epoch 212:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9029225
+Discriminator Loss: 1.1011713
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07630837, -0.8583362, 0.20144165, 0.032949775]
+Skipping Generator Gradient Application
+Epoch 213:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9831711
+Discriminator Loss: 1.0237834
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.05594471, -1.2520201, -0.021788359, -0.0040944517]
+Skipping Generator Gradient Application
+Epoch 214:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9676003
+Discriminator Loss: 1.0457039
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06148674, -1.1337695, 0.13214189, 0.0051234066]
+Skipping Generator Gradient Application
+Epoch 215:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9291477
+Discriminator Loss: 1.0749776
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.038950652, -0.9421897, 0.08096226, 0.022589564]
+Skipping Generator Gradient Application
+Epoch 216:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8766874
+Discriminator Loss: 1.1172109
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.03974416, -0.70030403, 0.17592977, 0.04481843]
+Skipping Generator Gradient Application
+Epoch 217:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.979681
+Discriminator Loss: 1.02659
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.04526423, -1.2452171, -0.009105593, -0.000783056]
+Skipping Generator Gradient Application
+Epoch 218:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8251976
+Discriminator Loss: 1.1666181
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.122076444, -0.41280392, 0.31253716, 0.06965834]
+Skipping Generator Gradient Application
+Epoch 219:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9225489
+Discriminator Loss: 1.0791185
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.026591934, -0.87915707, 0.11829597, 0.026444525]
+Skipping Generator Gradient Application
+Epoch 220:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.92230356
+Discriminator Loss: 1.0757303
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.032082826, -0.8918047, 0.052176423, 0.02622047]
+Skipping Generator Gradient Application
+Epoch 221:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.85320604
+Discriminator Loss: 1.1441505
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09420964, -0.5578736, 0.2692112, 0.059383452]
+Skipping Generator Gradient Application
+Epoch 222:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8777448
+Discriminator Loss: 1.1118796
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.026694918, -0.69169855, 0.08255127, 0.046188295]
+Skipping Generator Gradient Application
+Epoch 223:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.92833245
+Discriminator Loss: 1.0758977
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.011798591, -0.8872922, 0.09753623, 0.026437938]
+Skipping Generator Gradient Application
+Epoch 224:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8959074
+Discriminator Loss: 1.1051446
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.016019622, -0.6998983, 0.15257317, 0.041741163]
+Skipping Generator Gradient Application
+Epoch 225:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8663604
+Discriminator Loss: 1.124465
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.010702451, -0.60733503, 0.1525555, 0.053132415]
+Skipping Generator Gradient Application
+Epoch 226:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9392773
+Discriminator Loss: 1.0663134
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.003441073, -0.9331949, 0.08387637, 0.022574842]
+Skipping Generator Gradient Application
+Epoch 227:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.90084577
+Discriminator Loss: 1.1020143
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07803127, -0.7094445, 0.18106477, 0.04030919]
+Skipping Generator Gradient Application
+Epoch 228:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.95240384
+Discriminator Loss: 1.052459
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.046122026, -1.0765831, 0.06604645, 0.016094118]
+Skipping Generator Gradient Application
+Epoch 229:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8630823
+Discriminator Loss: 1.1357532
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10022479, -0.4991947, 0.24044664, 0.058288306]
+Skipping Generator Gradient Application
+Epoch 230:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.97670543
+Discriminator Loss: 1.0415709
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0346061, -1.0209968, 0.07959509, 0.01006031]
+Skipping Generator Gradient Application
+Epoch 231:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9156833
+Discriminator Loss: 1.0825412
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.02120743, -0.84813976, 0.08131769, 0.033645928]
+Skipping Generator Gradient Application
+Epoch 232:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9510489
+Discriminator Loss: 1.0652957
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.048904933, -0.86955565, 0.15421636, 0.022388875]
+Skipping Generator Gradient Application
+Epoch 233:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.934757
+Discriminator Loss: 1.0856011
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12101879, -0.7450841, 0.2170932, 0.03183216]
+Skipping Generator Gradient Application
+Epoch 234:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9619036
+Discriminator Loss: 1.0510311
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.0054543633, -1.0003904, 0.072848395, 0.017066747]
+Skipping Generator Gradient Application
+Epoch 235:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.96466076
+Discriminator Loss: 1.0645721
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17273177, -0.81829125, 0.24588254, 0.020554006]
+Skipping Generator Gradient Application
+Epoch 236:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9725471
+Discriminator Loss: 1.0365447
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.011551788, -1.0668894, 0.027004912, 0.011220336]
+Skipping Generator Gradient Application
+Epoch 237:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9279275
+Discriminator Loss: 1.090693
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12473406, -0.7220223, 0.24581607, 0.036153913]
+Skipping Generator Gradient Application
+Epoch 238:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93285024
+Discriminator Loss: 1.086686
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07387191, -0.71363944, 0.21865305, 0.035114378]
+Skipping Generator Gradient Application
+Epoch 239:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9972792
+Discriminator Loss: 1.0192204
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.012558112, -1.0990491, 0.026810445, 0.0029323995]
+Skipping Generator Gradient Application
+Epoch 240:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9265898
+Discriminator Loss: 1.0824285
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.0028885305, -0.76064914, 0.09581747, 0.03605944]
+Skipping Generator Gradient Application
+Epoch 241:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9289948
+Discriminator Loss: 1.0830364
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.03649997, -0.7167733, 0.15809748, 0.03593746]
+Skipping Generator Gradient Application
+Epoch 242:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.88743937
+Discriminator Loss: 1.1183425
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10971613, -0.5449112, 0.24180955, 0.05401376]
+Skipping Generator Gradient Application
+Epoch 243:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89753306
+Discriminator Loss: 1.0905925
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.05877971, -0.83880484, 0.039475635, 0.044536024]
+Skipping Generator Gradient Application
+Epoch 244:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9019866
+Discriminator Loss: 1.0976446
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.004199873, -0.6518706, 0.16429791, 0.046219885]
+Skipping Generator Gradient Application
+Epoch 245:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93326265
+Discriminator Loss: 1.0800428
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10303126, -0.66265213, 0.19885834, 0.03512746]
+Skipping Generator Gradient Application
+Epoch 246:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93114257
+Discriminator Loss: 1.0758319
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.054075032, -0.7934764, 0.1008378, 0.03466186]
+Skipping Generator Gradient Application
+Epoch 247:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9044245
+Discriminator Loss: 1.0994799
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07557718, -0.54430914, 0.20311272, 0.047123194]
+Skipping Generator Gradient Application
+Epoch 248:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9216776
+Discriminator Loss: 1.0872102
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06848988, -0.66835403, 0.18056315, 0.040831536]
+Skipping Generator Gradient Application
+Epoch 249:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9254228
+Discriminator Loss: 1.0843189
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.094422504, -0.7607516, 0.18313785, 0.039503634]
+Skipping Generator Gradient Application
+Epoch 250:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.96929234
+Discriminator Loss: 1.0591706
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14582516, -0.8143042, 0.20751153, 0.024086058]
+Skipping Generator Gradient Application
+Epoch 251:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9238846
+Discriminator Loss: 1.0817153
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.022264149, -0.7878944, 0.09269683, 0.040374786]
+Skipping Generator Gradient Application
+Epoch 252:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9364346
+Discriminator Loss: 1.0855069
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14277986, -0.6945662, 0.24302992, 0.038582623]
+Skipping Generator Gradient Application
+Epoch 253:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.97884494
+Discriminator Loss: 1.032383
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.06162047, -1.0702586, -0.021101974, 0.016245991]
+Skipping Generator Gradient Application
+Epoch 254:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9916993
+Discriminator Loss: 1.0249007
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.013883043, -1.0782783, 0.03124471, 0.011459678]
+Skipping Generator Gradient Application
+Epoch 255:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.933584
+Discriminator Loss: 1.0727623
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.045182765, -0.70488954, 0.06515471, 0.03772232]
+Skipping Generator Gradient Application
+Epoch 256:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9330915
+Discriminator Loss: 1.0755203
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.006450411, -0.6907265, 0.097737364, 0.038621902]
+Skipping Generator Gradient Application
+Epoch 257:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0063553
+Discriminator Loss: 1.0149472
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.035605263, -1.0338354, 0.010015324, 0.007363826]
+Skipping Generator Gradient Application
+Epoch 258:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93822074
+Discriminator Loss: 1.0904124
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.18227707, -0.6344208, 0.31417024, 0.04181376]
+Skipping Generator Gradient Application
+Epoch 259:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9686609
+Discriminator Loss: 1.0435072
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.010376654, -0.9318886, 0.050607815, 0.023223758]
+Skipping Generator Gradient Application
+Epoch 260:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.91427934
+Discriminator Loss: 1.0914131
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.010738369, -0.564919, 0.14596242, 0.048213422]
+Skipping Generator Gradient Application
+Epoch 261:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9272107
+Discriminator Loss: 1.0788236
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.015859092, -0.70424885, 0.13773352, 0.042073607]
+Skipping Generator Gradient Application
+Epoch 262:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93888164
+Discriminator Loss: 1.0875318
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.18234122, -0.54185617, 0.26577082, 0.042750835]
+Skipping Generator Gradient Application
+Epoch 263:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9792412
+Discriminator Loss: 1.0410726
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.058064967, -0.8935579, 0.0916359, 0.02191189]
+Skipping Generator Gradient Application
+Epoch 264:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0057629
+Discriminator Loss: 1.0068347
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.112932, -1.0004874, -0.06772007, 0.008259237]
+Skipping Generator Gradient Application
+Epoch 265:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.98320603
+Discriminator Loss: 1.0532497
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14690264, -0.81788063, 0.23107138, 0.025436252]
+Skipping Generator Gradient Application
+Epoch 266:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.99919623
+Discriminator Loss: 1.0366068
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1179948, -0.8399826, 0.17442103, 0.018171012]
+Skipping Generator Gradient Application
+Epoch 267:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.98718536
+Discriminator Loss: 1.0352117
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06735906, -0.90618, 0.13383785, 0.019708008]
+Skipping Generator Gradient Application
+Epoch 268:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9534334
+Discriminator Loss: 1.0729817
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.126709, -0.68058324, 0.20936555, 0.038457572]
+Skipping Generator Gradient Application
+Epoch 269:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.91474277
+Discriminator Loss: 1.088214
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.027857505, -0.555495, 0.11677396, 0.05116248]
+Skipping Generator Gradient Application
+Epoch 270:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.922114
+Discriminator Loss: 1.0781686
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.004800871, -0.75115097, 0.11817421, 0.04617122]
+Skipping Generator Gradient Application
+Epoch 271:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0737801
+Discriminator Loss: 0.9676316
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.044602923, -1.273723, 0.0044656545, -0.014221102]
+Skipping Generator Gradient Application
+Epoch 272:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.99439454
+Discriminator Loss: 1.0384965
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.039094437, -0.8567859, 0.09267921, 0.023176521]
+Skipping Generator Gradient Application
+Epoch 273:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0538608
+Discriminator Loss: 0.9973243
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.16667518, -1.0393269, 0.1429548, -0.0011624098]
+Skipping Generator Gradient Application
+Epoch 274:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.95912427
+Discriminator Loss: 1.065634
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.08030994, -0.7130151, 0.1832268, 0.037846476]
+Skipping Generator Gradient Application
+Epoch 275:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.95095813
+Discriminator Loss: 1.0721555
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07296017, -0.66351503, 0.20639896, 0.041745633]
+Skipping Generator Gradient Application
+Epoch 276:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.89932036
+Discriminator Loss: 1.1132536
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09212894, -0.47384375, 0.28308272, 0.06365183]
+Skipping Generator Gradient Application
+Epoch 277:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0010947
+Discriminator Loss: 1.0268748
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.03839446, -0.89638364, 0.11056179, 0.019500554]
+Skipping Generator Gradient Application
+Epoch 278:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93587327
+Discriminator Loss: 1.089802
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12491439, -0.5006045, 0.26574355, 0.05097401]
+Skipping Generator Gradient Application
+Epoch 279:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93457764
+Discriminator Loss: 1.0767524
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.04644462, -0.6504221, 0.15968238, 0.04738158]
+Skipping Generator Gradient Application
+Epoch 280:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.98065513
+Discriminator Loss: 1.0433612
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.062307797, -0.78672844, 0.13246068, 0.029209852]
+Skipping Generator Gradient Application
+Epoch 281:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9536423
+Discriminator Loss: 1.0445105
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.06633052, -0.8163548, 0.014907226, 0.03481126]
+Skipping Generator Gradient Application
+Epoch 282:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0201069
+Discriminator Loss: 1.0134856
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.104980424, -0.9147413, 0.1357226, 0.01296702]
+Skipping Generator Gradient Application
+Epoch 283:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.93339276
+Discriminator Loss: 1.0960077
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20686248, -0.51443493, 0.3366812, 0.05389297]
+Skipping Generator Gradient Application
+Epoch 284:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0125108
+Discriminator Loss: 1.0156066
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.002438479, -0.9469124, 0.049701698, 0.017080992]
+Skipping Generator Gradient Application
+Epoch 285:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0016505
+Discriminator Loss: 1.0214055
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0035350844, -0.91885614, 0.073601656, 0.020826042]
+Skipping Generator Gradient Application
+Epoch 286:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0401652
+Discriminator Loss: 1.0142055
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.16339743, -0.85440946, 0.19041893, 0.011681169]
+Skipping Generator Gradient Application
+Epoch 287:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0865782
+Discriminator Loss: 0.9797768
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.198253, -1.0877817, 0.15066871, -0.0067878664]
+Skipping Generator Gradient Application
+Epoch 288:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0286057
+Discriminator Loss: 1.0071601
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.071175955, -0.9560533, 0.07739121, 0.012720138]
+Skipping Generator Gradient Application
+Epoch 289:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9684896
+Discriminator Loss: 1.062072
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09332563, -0.6430164, 0.20801902, 0.041021913]
+Skipping Generator Gradient Application
+Epoch 290:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0318618
+Discriminator Loss: 1.0109462
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.05840137, -0.99989045, 0.1168285, 0.014454782]
+Skipping Generator Gradient Application
+Epoch 291:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0263472
+Discriminator Loss: 1.0297735
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.16009413, -0.8141146, 0.2584648, 0.021480411]
+Skipping Generator Gradient Application
+Epoch 292:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0554402
+Discriminator Loss: 0.996982
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.08408989, -0.9199228, 0.091687724, 0.0074564517]
+Skipping Generator Gradient Application
+Epoch 293:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9900383
+Discriminator Loss: 1.075555
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.35991207, -0.52657545, 0.4769143, 0.04086119]
+Skipping Generator Gradient Application
+Epoch 294:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9510086
+Discriminator Loss: 1.0602533
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.097913414, -0.69461656, 0.1044133, 0.046370685]
+Skipping Generator Gradient Application
+Epoch 295:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0033077
+Discriminator Loss: 1.0339615
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.073293135, -0.7425093, 0.16482034, 0.028637975]
+Skipping Generator Gradient Application
+Epoch 296:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0147943
+Discriminator Loss: 1.031691
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14408341, -0.77045906, 0.23757589, 0.02584362]
+Skipping Generator Gradient Application
+Epoch 297:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9255739
+Discriminator Loss: 1.0963597
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.070890985, -0.45056918, 0.28981376, 0.0627234]
+Skipping Generator Gradient Application
+Epoch 298:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.009925
+Discriminator Loss: 1.017171
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.0448299, -0.92412686, 0.050135918, 0.024173737]
+Skipping Generator Gradient Application
+Epoch 299:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0027983
+Discriminator Loss: 1.0453076
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12872624, -0.705566, 0.25228965, 0.033817112]
+Skipping Generator Gradient Application
+Epoch 300:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.94068366
+Discriminator Loss: 1.0783167
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07112223, -0.5456202, 0.24499403, 0.05481574]
+Skipping Generator Gradient Application
+Epoch 301:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9463676
+Discriminator Loss: 1.0999573
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.34276393, -0.42015988, 0.5044253, 0.058639348]
+Skipping Generator Gradient Application
+Epoch 302:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.99514115
+Discriminator Loss: 1.0397501
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.118017256, -0.71683, 0.19123003, 0.03401184]
+Skipping Generator Gradient Application
+Epoch 303:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0610001
+Discriminator Loss: 1.0013595
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14650965, -0.75413775, 0.15792605, 0.011683434]
+Skipping Generator Gradient Application
+Epoch 304:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0534999
+Discriminator Loss: 1.017641
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.25022084, -0.7713087, 0.2521143, 0.017792732]
+Skipping Generator Gradient Application
+Epoch 305:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0049558
+Discriminator Loss: 1.0328252
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12803335, -0.7482515, 0.20172742, 0.030857742]
+Skipping Generator Gradient Application
+Epoch 306:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9862459
+Discriminator Loss: 1.0466608
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.05655623, -0.7027502, 0.18266258, 0.039686114]
+Skipping Generator Gradient Application
+Epoch 307:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9528285
+Discriminator Loss: 1.0946661
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.2745963, -0.4144718, 0.4435538, 0.058971673]
+Skipping Generator Gradient Application
+Epoch 308:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0100386
+Discriminator Loss: 1.03745
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14966774, -0.6519916, 0.26748663, 0.03233069]
+Skipping Generator Gradient Application
+Epoch 309:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9816254
+Discriminator Loss: 1.0666019
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17689493, -0.49278522, 0.3099473, 0.047230214]
+Skipping Generator Gradient Application
+Epoch 310:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9345876
+Discriminator Loss: 1.0864158
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09584588, -0.46364212, 0.30485436, 0.061127782]
+Skipping Generator Gradient Application
+Epoch 311:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.059636
+Discriminator Loss: 1.0031835
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1582148, -0.84128726, 0.17704701, 0.01473096]
+Skipping Generator Gradient Application
+Epoch 312:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0145941
+Discriminator Loss: 1.0210923
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06450808, -0.7513186, 0.13975863, 0.028159112]
+Skipping Generator Gradient Application
+Epoch 313:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.8479168
+Discriminator Loss: 1.1812968
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.32999328, -0.018347126, 0.67657936, 0.10494295]
+Skipping Generator Gradient Application
+Epoch 314:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9566304
+Discriminator Loss: 1.0918125
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.23784743, -0.4140157, 0.44046858, 0.060165763]
+Skipping Generator Gradient Application
+Epoch 315:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0257435
+Discriminator Loss: 0.9967736
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08147342, -0.9728583, -0.006956555, 0.020730674]
+Skipping Generator Gradient Application
+Epoch 316:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0348228
+Discriminator Loss: 1.0092896
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06988716, -0.8714384, 0.12839532, 0.022391707]
+Skipping Generator Gradient Application
+Epoch 317:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.032403
+Discriminator Loss: 1.0280389
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.113896124, -0.6388609, 0.19984764, 0.02949658]
+Skipping Generator Gradient Application
+Epoch 318:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0149267
+Discriminator Loss: 1.0405455
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.15359935, -0.5341729, 0.2472921, 0.036118805]
+Skipping Generator Gradient Application
+Epoch 319:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0147316
+Discriminator Loss: 1.0257461
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07814516, -0.79628956, 0.15377, 0.031800658]
+Skipping Generator Gradient Application
+Epoch 320:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0065029
+Discriminator Loss: 1.0589201
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.23859948, -0.5351738, 0.3652639, 0.043505967]
+Skipping Generator Gradient Application
+Epoch 321:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0111929
+Discriminator Loss: 1.0571991
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.24210702, -0.5297533, 0.3386677, 0.042650193]
+Skipping Generator Gradient Application
+Epoch 322:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9975357
+Discriminator Loss: 1.0484962
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06944569, -0.5608854, 0.20548725, 0.044128776]
+Skipping Generator Gradient Application
+Epoch 323:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.020572
+Discriminator Loss: 1.0421623
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.19617021, -0.6226633, 0.2915874, 0.037175]
+Skipping Generator Gradient Application
+Epoch 324:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0104575
+Discriminator Loss: 1.0437369
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13345097, -0.5833108, 0.26814952, 0.04014477]
+Skipping Generator Gradient Application
+Epoch 325:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2491987
+Discriminator Loss: 0.8622921
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06302166, -1.5232337, -0.1706993, -0.055425078]
+Skipping Generator Gradient Application
+Epoch 326:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9968823
+Discriminator Loss: 1.0244242
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.050189223, -0.7026603, 0.079824544, 0.036881775]
+Skipping Generator Gradient Application
+Epoch 327:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0436879
+Discriminator Loss: 0.987434
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.07880663, -0.9643291, -0.007892616, 0.019178927]
+Skipping Generator Gradient Application
+Epoch 328:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0724871
+Discriminator Loss: 0.992712
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.090811916, -0.79275596, 0.13967851, 0.015112877]
+Skipping Generator Gradient Application
+Epoch 329:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0887208
+Discriminator Loss: 0.99089897
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.109428175, -0.8601784, 0.13964444, 0.012828082]
+Skipping Generator Gradient Application
+Epoch 330:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0191011
+Discriminator Loss: 1.0370479
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12204078, -0.67980134, 0.24738745, 0.038475037]
+Skipping Generator Gradient Application
+Epoch 331:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0153749
+Discriminator Loss: 1.0384223
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.15750137, -0.6241572, 0.2786088, 0.038999647]
+Skipping Generator Gradient Application
+Epoch 332:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1055987
+Discriminator Loss: 0.9572832
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.048153695, -0.9804123, 0.04362256, -0.0008970201]
+Skipping Generator Gradient Application
+Epoch 333:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0784152
+Discriminator Loss: 0.9849495
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.04874143, -0.8681307, 0.10706337, 0.013625234]
+Skipping Generator Gradient Application
+Epoch 334:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0918517
+Discriminator Loss: 0.9854874
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1582708, -0.8738259, 0.15985873, 0.011448532]
+Skipping Generator Gradient Application
+Epoch 335:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0210725
+Discriminator Loss: 1.0188487
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.0070166946, -0.80577433, 0.11706449, 0.035586447]
+Skipping Generator Gradient Application
+Epoch 336:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0525997
+Discriminator Loss: 1.0071485
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07295878, -0.7320142, 0.13006762, 0.027161509]
+Skipping Generator Gradient Application
+Epoch 337:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0060948
+Discriminator Loss: 1.0434874
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14435625, -0.5326457, 0.2783652, 0.04530549]
+Skipping Generator Gradient Application
+Epoch 338:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0831888
+Discriminator Loss: 1.0043377
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.2105057, -0.68059945, 0.25049552, 0.020922184]
+Skipping Generator Gradient Application
+Epoch 339:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0298536
+Discriminator Loss: 1.0395484
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.2732178, -0.5179299, 0.3485792, 0.039882243]
+Skipping Generator Gradient Application
+Epoch 340:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.081098
+Discriminator Loss: 0.9782628
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.062055692, -0.82999265, 0.08218796, 0.014310896]
+Skipping Generator Gradient Application
+Epoch 341:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.038603
+Discriminator Loss: 1.0129707
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.08607002, -0.74361765, 0.18298382, 0.03242767]
+Skipping Generator Gradient Application
+Epoch 342:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0897217
+Discriminator Loss: 0.97615856
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.124718115, -0.92151546, 0.11910501, 0.012141436]
+Skipping Generator Gradient Application
+Epoch 343:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0940818
+Discriminator Loss: 0.9938601
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.26491702, -0.718779, 0.2762382, 0.016421288]
+Skipping Generator Gradient Application
+Epoch 344:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1051888
+Discriminator Loss: 0.97904795
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12468928, -0.79317343, 0.162087, 0.012254208]
+Skipping Generator Gradient Application
+Epoch 345:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0631611
+Discriminator Loss: 1.0057452
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.11235304, -0.6636773, 0.19755597, 0.028000116]
+Skipping Generator Gradient Application
+Epoch 346:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1004362
+Discriminator Loss: 0.9585179
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.019406652, -0.9377121, 0.036890663, 0.006982416]
+Skipping Generator Gradient Application
+Epoch 347:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0840244
+Discriminator Loss: 0.99643123
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10401018, -0.7357507, 0.18853748, 0.023138046]
+Skipping Generator Gradient Application
+Epoch 348:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.99631095
+Discriminator Loss: 1.025578
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.067464694, -0.635316, 0.10540773, 0.047751814]
+Skipping Generator Gradient Application
+Epoch 349:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0697483
+Discriminator Loss: 0.99468267
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.089264914, -0.7259269, 0.17972296, 0.02497521]
+Skipping Generator Gradient Application
+Epoch 350:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0950593
+Discriminator Loss: 0.960559
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.027399678, -0.941295, 0.009839624, 0.012023747]
+Skipping Generator Gradient Application
+Epoch 351:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0837544
+Discriminator Loss: 0.97728133
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.026958074, -0.73740894, 0.0991184, 0.019106716]
+Skipping Generator Gradient Application
+Epoch 352:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0610316
+Discriminator Loss: 1.006656
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1768089, -0.64460194, 0.24895693, 0.030793846]
+Skipping Generator Gradient Application
+Epoch 353:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9897337
+Discriminator Loss: 1.0433918
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.053550493, -0.53684896, 0.25040048, 0.05504352]
+Skipping Generator Gradient Application
+Epoch 354:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.9915992
+Discriminator Loss: 1.0899646
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.32388133, -0.2735972, 0.54459953, 0.068936974]
+Skipping Generator Gradient Application
+Epoch 355:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1171104
+Discriminator Loss: 0.9509217
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.050275143, -0.7938006, 0.036927156, 0.006398678]
+Skipping Generator Gradient Application
+Epoch 356:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0462091
+Discriminator Loss: 1.0291047
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20968774, -0.5013125, 0.34981588, 0.041639924]
+Skipping Generator Gradient Application
+Epoch 357:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.066472
+Discriminator Loss: 0.99070835
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.015963329, -0.82565165, 0.10813749, 0.028788388]
+Skipping Generator Gradient Application
+Epoch 358:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.084213
+Discriminator Loss: 0.9775203
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0030883364, -0.7978835, 0.06392054, 0.022501767]
+Skipping Generator Gradient Application
+Epoch 359:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.087713
+Discriminator Loss: 0.97678214
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.015481504, -0.7634816, 0.085778385, 0.021911472]
+Skipping Generator Gradient Application
+Epoch 360:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0589644
+Discriminator Loss: 1.0060985
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07336244, -0.6701855, 0.18230322, 0.03518775]
+Skipping Generator Gradient Application
+Epoch 361:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0822628
+Discriminator Loss: 1.0059593
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17383392, -0.6521793, 0.24385801, 0.031807244]
+Skipping Generator Gradient Application
+Epoch 362:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0678654
+Discriminator Loss: 0.9946779
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09009939, -0.6889158, 0.18094437, 0.029822469]
+Skipping Generator Gradient Application
+Epoch 363:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0807873
+Discriminator Loss: 0.9985832
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13858598, -0.6022508, 0.23274511, 0.029710144]
+Skipping Generator Gradient Application
+Epoch 364:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0512025
+Discriminator Loss: 1.0272505
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20897569, -0.48650175, 0.33579454, 0.043664455]
+Skipping Generator Gradient Application
+Epoch 365:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1546701
+Discriminator Loss: 0.9309518
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.00077759475, -0.91052055, -0.018805385, -0.0012749732]
+Skipping Generator Gradient Application
+Epoch 366:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1539872
+Discriminator Loss: 0.937109
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.03532731, -0.86943555, 0.031807758, 0.0009215772]
+Skipping Generator Gradient Application
+Epoch 367:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0512726
+Discriminator Loss: 1.0176339
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13742328, -0.5559151, 0.2830129, 0.041718334]
+Skipping Generator Gradient Application
+Epoch 368:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.053658
+Discriminator Loss: 1.0213953
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17300645, -0.49056125, 0.3189053, 0.042505622]
+Skipping Generator Gradient Application
+Epoch 369:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0573022
+Discriminator Loss: 1.0103484
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.099236146, -0.55717564, 0.24044445, 0.040053636]
+Skipping Generator Gradient Application
+Epoch 370:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0492461
+Discriminator Loss: 1.0244999
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.22647747, -0.40681058, 0.3601778, 0.044344217]
+Skipping Generator Gradient Application
+Epoch 371:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0638562
+Discriminator Loss: 1.0186939
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.18931901, -0.5251063, 0.33834654, 0.04167226]
+Skipping Generator Gradient Application
+Epoch 372:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0673603
+Discriminator Loss: 1.0126582
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.11943745, -0.53075695, 0.28176412, 0.040390342]
+Skipping Generator Gradient Application
+Epoch 373:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1925827
+Discriminator Loss: 0.90233624
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.03732551, -1.0432742, -0.086152315, -0.01238665]
+Skipping Generator Gradient Application
+Epoch 374:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1032917
+Discriminator Loss: 0.9877268
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12717284, -0.6170292, 0.20238341, 0.027433366]
+Skipping Generator Gradient Application
+Epoch 375:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1197448
+Discriminator Loss: 0.97712266
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.24608716, -0.66410923, 0.256431, 0.019221544]
+Skipping Generator Gradient Application
+Epoch 376:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0378976
+Discriminator Loss: 1.0334042
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.16217554, -0.46137014, 0.3376707, 0.052666396]
+Skipping Generator Gradient Application
+Epoch 377:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0454215
+Discriminator Loss: 1.0285066
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17171967, -0.4353428, 0.34129196, 0.049824387]
+Skipping Generator Gradient Application
+Epoch 378:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0203676
+Discriminator Loss: 1.038868
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.092572905, -0.452582, 0.3092314, 0.05902627]
+Skipping Generator Gradient Application
+Epoch 379:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1114329
+Discriminator Loss: 0.9773132
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13772321, -0.6772408, 0.21155643, 0.023980916]
+Skipping Generator Gradient Application
+Epoch 380:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0355517
+Discriminator Loss: 1.0438136
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.21007283, -0.30491304, 0.41760832, 0.057234973]
+Skipping Generator Gradient Application
+Epoch 381:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0785227
+Discriminator Loss: 0.98736477
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.080690846, -0.6382225, 0.19005488, 0.03283474]
+Skipping Generator Gradient Application
+Epoch 382:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0705448
+Discriminator Loss: 0.9776181
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.013472958, -0.7583201, 0.07833195, 0.03255236]
+Skipping Generator Gradient Application
+Epoch 383:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1048582
+Discriminator Loss: 1.0026114
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.23555596, -0.45990837, 0.35180032, 0.03415951]
+Skipping Generator Gradient Application
+Epoch 384:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.067416
+Discriminator Loss: 1.0533316
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.3941496, -0.23403129, 0.57688797, 0.054603398]
+Skipping Generator Gradient Application
+Epoch 385:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0698572
+Discriminator Loss: 0.9867867
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.035409994, -0.57098836, 0.16737086, 0.035717815]
+Skipping Generator Gradient Application
+Epoch 386:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.170144
+Discriminator Loss: 0.93792015
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12955073, -0.69020426, 0.11928576, 0.0049254]
+Skipping Generator Gradient Application
+Epoch 387:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0410764
+Discriminator Loss: 1.0668294
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.31741259, -0.17910802, 0.5389153, 0.06620747]
+Skipping Generator Gradient Application
+Epoch 388:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1686336
+Discriminator Loss: 0.91007394
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.07462099, -0.98919976, -0.079600506, -0.0022969544]
+Skipping Generator Gradient Application
+Epoch 389:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1794233
+Discriminator Loss: 0.900463
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.04960738, -1.0752119, -0.0974901, -0.007362634]
+Skipping Generator Gradient Application
+Epoch 390:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0538609
+Discriminator Loss: 1.0347028
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.26886415, -0.3394928, 0.45882344, 0.052458256]
+Skipping Generator Gradient Application
+Epoch 391:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0845027
+Discriminator Loss: 0.9907166
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09019815, -0.5941525, 0.23717213, 0.036557555]
+Skipping Generator Gradient Application
+Epoch 392:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0180173
+Discriminator Loss: 1.0595843
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.29061174, -0.28555334, 0.5244075, 0.06699309]
+Skipping Generator Gradient Application
+Epoch 393:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2103379
+Discriminator Loss: 0.9124415
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.114705555, -0.8725536, 0.055906534, -0.0062226653]
+Skipping Generator Gradient Application
+Epoch 394:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1195455
+Discriminator Loss: 0.9788486
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.16968495, -0.5780604, 0.22819398, 0.028401673]
+Skipping Generator Gradient Application
+Epoch 395:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1599032
+Discriminator Loss: 0.970212
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.22204888, -0.5844907, 0.29022852, 0.020052314]
+Skipping Generator Gradient Application
+Epoch 396:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0748086
+Discriminator Loss: 1.0090829
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.14041406, -0.49005193, 0.33539003, 0.04565853]
+Skipping Generator Gradient Application
+Epoch 397:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0082226
+Discriminator Loss: 1.0441749
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0659634, -0.31405973, 0.38170612, 0.06800255]
+Skipping Generator Gradient Application
+Epoch 398:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0970325
+Discriminator Loss: 0.9839298
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07956205, -0.61522496, 0.20846196, 0.03496605]
+Skipping Generator Gradient Application
+Epoch 399:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1048744
+Discriminator Loss: 0.96757877
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0056969933, -0.66400003, 0.12316334, 0.030475467]
+Skipping Generator Gradient Application
+Epoch 400:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0453523
+Discriminator Loss: 1.038685
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.26022646, -0.30970556, 0.47265184, 0.058709145]
+Skipping Generator Gradient Application
+Epoch 401:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1015913
+Discriminator Loss: 0.9893589
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10297796, -0.48140624, 0.25738615, 0.038065523]
+Skipping Generator Gradient Application
+Epoch 402:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1926905
+Discriminator Loss: 0.93431926
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1731014, -0.7293897, 0.15527749, 0.0055858195]
+Skipping Generator Gradient Application
+Epoch 403:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1794789
+Discriminator Loss: 0.9313972
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.040079713, -0.7890514, 0.058065183, 0.008879423]
+Skipping Generator Gradient Application
+Epoch 404:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1612074
+Discriminator Loss: 0.9473016
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10411977, -0.6829864, 0.15476502, 0.015126675]
+Skipping Generator Gradient Application
+Epoch 405:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0830551
+Discriminator Loss: 1.0007999
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.056844417, -0.4673795, 0.25941497, 0.046227813]
+Skipping Generator Gradient Application
+Epoch 406:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0217242
+Discriminator Loss: 1.0454422
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1416504, -0.22988665, 0.41664863, 0.06806275]
+Skipping Generator Gradient Application
+Epoch 407:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1708612
+Discriminator Loss: 0.93487906
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.074078195, -0.6601786, 0.09930998, 0.01121673]
+Skipping Generator Gradient Application
+Epoch 408:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1075127
+Discriminator Loss: 0.96785927
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.10135661, -0.57733005, 0.19074555, 0.029950678]
+Skipping Generator Gradient Application
+Epoch 409:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0819838
+Discriminator Loss: 0.9711944
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.042707227, -0.5627718, 0.12933075, 0.037629783]
+Skipping Generator Gradient Application
+Epoch 410:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1878787
+Discriminator Loss: 0.9712262
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.32993102, -0.4495703, 0.37559032, 0.019938916]
+Skipping Generator Gradient Application
+Epoch 411:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1654193
+Discriminator Loss: 0.92252684
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.029717278, -0.7682139, 0.031880245, 0.0094637275]
+Skipping Generator Gradient Application
+Epoch 412:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1203468
+Discriminator Loss: 0.98338425
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20933542, -0.4641169, 0.32555014, 0.03451243]
+Skipping Generator Gradient Application
+Epoch 413:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1282609
+Discriminator Loss: 0.9974661
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.26615304, -0.42948663, 0.38390183, 0.0381912]
+Skipping Generator Gradient Application
+Epoch 414:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1871722
+Discriminator Loss: 0.93713707
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.2083084, -0.71573347, 0.1795045, 0.009901911]
+Skipping Generator Gradient Application
+Epoch 415:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0782105
+Discriminator Loss: 1.0159116
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.19321723, -0.4848517, 0.39248818, 0.052604884]
+Skipping Generator Gradient Application
+Epoch 416:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1579752
+Discriminator Loss: 0.94653
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.121968165, -0.7669751, 0.17748998, 0.019268364]
+Skipping Generator Gradient Application
+Epoch 417:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0573112
+Discriminator Loss: 1.0373093
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.25563058, -0.22460182, 0.49341547, 0.062419355]
+Skipping Generator Gradient Application
+Epoch 418:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1312035
+Discriminator Loss: 0.9778482
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20706165, -0.45510304, 0.31307423, 0.032985628]
+Skipping Generator Gradient Application
+Epoch 419:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0588326
+Discriminator Loss: 1.0072379
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.16225752, -0.40508944, 0.36721504, 0.052584738]
+Skipping Generator Gradient Application
+Epoch 420:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0017332
+Discriminator Loss: 1.0406135
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0485099, -0.3254392, 0.36555654, 0.076423466]
+Skipping Generator Gradient Application
+Epoch 421:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1954433
+Discriminator Loss: 0.95599264
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.31352943, -0.55405545, 0.32688236, 0.016788602]
+Skipping Generator Gradient Application
+Epoch 422:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1448389
+Discriminator Loss: 0.9258435
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.08780807, -0.7873225, -0.003120765, 0.019748658]
+Skipping Generator Gradient Application
+Epoch 423:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1694105
+Discriminator Loss: 0.9125545
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.017179286, -0.8005149, 0.0071648657, 0.008552372]
+Skipping Generator Gradient Application
+Epoch 424:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1222503
+Discriminator Loss: 0.95960593
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.016531482, -0.5922251, 0.17887141, 0.032677174]
+Skipping Generator Gradient Application
+Epoch 425:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0580074
+Discriminator Loss: 1.0180776
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13372126, -0.28269655, 0.40430057, 0.060006887]
+Skipping Generator Gradient Application
+Epoch 426:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1591434
+Discriminator Loss: 0.96894324
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.21167308, -0.4684092, 0.2949086, 0.030128747]
+Skipping Generator Gradient Application
+Epoch 427:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.168055
+Discriminator Loss: 0.9109617
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.06660643, -0.77063537, -0.019570254, 0.0119098425]
+Skipping Generator Gradient Application
+Epoch 428:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1216389
+Discriminator Loss: 0.9936198
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20967904, -0.38021693, 0.38643664, 0.0429326]
+Skipping Generator Gradient Application
+Epoch 429:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1562829
+Discriminator Loss: 0.9375861
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.028274773, -0.6077478, 0.13720542, 0.02190125]
+Skipping Generator Gradient Application
+Epoch 430:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1213751
+Discriminator Loss: 0.9882817
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.20141518, -0.37527627, 0.3584327, 0.04202342]
+Skipping Generator Gradient Application
+Epoch 431:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.071068
+Discriminator Loss: 1.0060675
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.12677577, -0.3566821, 0.36244002, 0.056109518]
+Skipping Generator Gradient Application
+Epoch 432:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1357763
+Discriminator Loss: 0.95813346
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.11072543, -0.51808417, 0.22672528, 0.030317247]
+Skipping Generator Gradient Application
+Epoch 433:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1262853
+Discriminator Loss: 0.98274016
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.18415757, -0.48126757, 0.33641234, 0.040811777]
+Skipping Generator Gradient Application
+Epoch 434:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1537783
+Discriminator Loss: 0.9542441
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.09733032, -0.522977, 0.18949191, 0.030504644]
+Skipping Generator Gradient Application
+Epoch 435:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2550523
+Discriminator Loss: 0.8712615
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0655314, -0.9169048, -0.049835563, -0.012799382]
+Skipping Generator Gradient Application
+Epoch 436:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1268283
+Discriminator Loss: 1.0052333
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.33940566, -0.29322404, 0.5222006, 0.046391606]
+Skipping Generator Gradient Application
+Epoch 437:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1515031
+Discriminator Loss: 0.93589556
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.01381319, -0.6660603, 0.115590766, 0.02524206]
+Skipping Generator Gradient Application
+Epoch 438:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2467575
+Discriminator Loss: 0.9022008
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.098683305, -0.740407, 0.083351314, 0.00064972043]
+Skipping Generator Gradient Application
+Epoch 439:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1815022
+Discriminator Loss: 0.93230927
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.021595072, -0.59189963, 0.12708358, 0.02113393]
+Skipping Generator Gradient Application
+Epoch 440:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.140674
+Discriminator Loss: 0.95974636
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.07489729, -0.5002386, 0.23393995, 0.035475343]
+Skipping Generator Gradient Application
+Epoch 441:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2330534
+Discriminator Loss: 0.92592657
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.23280036, -0.5506842, 0.24116307, 0.008593738]
+Skipping Generator Gradient Application
+Epoch 442:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2041109
+Discriminator Loss: 0.9561913
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.27222204, -0.44216707, 0.3499921, 0.023254693]
+Skipping Generator Gradient Application
+Epoch 443:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1098657
+Discriminator Loss: 0.98085785
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.08756897, -0.51536596, 0.30581355, 0.04775673]
+Skipping Generator Gradient Application
+Epoch 444:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2719107
+Discriminator Loss: 0.87389255
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06327467, -0.843709, -0.00411886, -0.009955019]
+Skipping Generator Gradient Application
+Epoch 445:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2094864
+Discriminator Loss: 0.93510675
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.18913811, -0.6016688, 0.23318692, 0.017653793]
+Skipping Generator Gradient Application
+Epoch 446:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1367766
+Discriminator Loss: 0.953863
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.06705746, -0.5739054, 0.22185737, 0.03552386]
+Skipping Generator Gradient Application
+Epoch 447:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0213076
+Discriminator Loss: 1.0457122
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.08637872, -0.17756888, 0.5075718, 0.08379045]
+Skipping Generator Gradient Application
+Epoch 448:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2598699
+Discriminator Loss: 0.88784647
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.13897201, -0.7694726, 0.071143076, -0.0036112368]
+Skipping Generator Gradient Application
+Epoch 449:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1735237
+Discriminator Loss: 0.9610223
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17369202, -0.4783262, 0.28063688, 0.0347777]
+Skipping Generator Gradient Application
+Epoch 450:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.0930438
+Discriminator Loss: 0.9916986
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.0842243, -0.3577938, 0.3212964, 0.05748248]
+Skipping Generator Gradient Application
+Epoch 451:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1694674
+Discriminator Loss: 0.945387
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.1300023, -0.41594023, 0.24460183, 0.029715747]
+Skipping Generator Gradient Application
+Epoch 452:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1278563
+Discriminator Loss: 0.9510118
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [-0.019523263, -0.44545898, 0.16788599, 0.040059954]
+Skipping Generator Gradient Application
+Epoch 453:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1032583
+Discriminator Loss: 1.0178965
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.28360245, -0.12456888, 0.55870295, 0.061181724]
+Skipping Generator Gradient Application
+Epoch 454:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 0.981563
+Discriminator Loss: 1.1182084
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.40144104, 0.23598067, 0.9336523, 0.110464394]
+Skipping Generator Gradient Application
+Epoch 455:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1606326
+Discriminator Loss: 0.97764397
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.30670616, -0.26023448, 0.46060652, 0.039517403]
+Skipping Generator Gradient Application
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\gan\main.py", line 49, in <module>
+    train_gan(gan_generator, gan_critic, gan_optimizer_g, gan_optimizer_d, real_actions, noise_dim, batch_size, epochs)
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 39, in train_gan
+    real_output = discriminator(real_actions, training=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\layer.py", line 901, in __call__
+    outputs = super().__call__(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\ops\operation.py", line 46, in __call__
+    return call_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 156, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\gan\gan.py", line 23, in call
+    return self.dense2(x)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\layer.py", line 901, in __call__
+    outputs = super().__call__(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\ops\operation.py", line 46, in __call__
+    return call_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 156, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\layers\core\dense.py", line 144, in call
+    x = ops.matmul(inputs, self.kernel)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\ops\numpy.py", line 3445, in matmul
+    return backend.numpy.matmul(x1, x2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\keras\src\backend\tensorflow\numpy.py", line 477, in matmul
+    output = tf.matmul(x1, x2, output_type=output_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\ops\weak_tensor_ops.py", line 142, in wrapper
+    return op(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\util\dispatch.py", line 1260, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\ops\math_ops.py", line 3657, in matmul
+    return gen_math_ops.mat_mul(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UMI\Desktop\myenv\Lib\site-packages\tensorflow\python\ops\gen_math_ops.py", line 6930, in mat_mul
+    _result = pywrap_tfe.TFE_Py_FastPathExecute(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Epoch 456:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.1669533
+Discriminator Loss: 0.9624535
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.17023404, -0.3082556, 0.30230826, 0.038021088]
+Skipping Generator Gradient Application
+Epoch 457:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.2021329
+Discriminator Loss: 0.97681624
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.3540243, -0.17445774, 0.45702553, 0.03580445]
+Skipping Generator Gradient Application
+Epoch 458:
+Generator Output Shape: (64, 1)
+Discriminator Real Output Shape: (1337, 1)
+Discriminator Fake Output Shape: (64, 1)
+Generator Loss: 1.063808
+Discriminator Loss: 1.0289295
+Gradients G: ['None', 'None', 'None', 'None']
+Gradients D: [0.2356295, -0.056256972, 0.57873774, 0.07186955]
+Skipping Generator Gradient Application

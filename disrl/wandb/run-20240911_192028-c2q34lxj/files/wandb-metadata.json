@@ -1,0 +1,47 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.5",
+    "heartbeatAt": "2024-09-11T11:20:30.166269",
+    "startedAt": "2024-09-11T11:20:28.048357",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\sally\\OneDrive\\Desktop\\New folder\\disrl\\c51.py",
+    "codePathLocal": "c51.py",
+    "codePath": "c51.py",
+    "host": "Sally_H2024",
+    "username": "sally",
+    "executable": "C:\\Users\\sally\\OneDrive\\Desktop\\test\\myenv\\Scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2688.0,
+        "min": 0.0,
+        "max": 2688.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2688.0,
+            "min": 0.0,
+            "max": 2688.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 449.3401527404785,
+            "used": 258.2001152038574
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2050",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.729076385498047
+    }
+}

@@ -1,0 +1,7 @@
+Action before conversion: [0 0]
+Action type: <class 'tensorflow.python.framework.ops.EagerTensor'>, shape: [2]
+Traceback (most recent call last):
+  File "C:\Users\UMI\Desktop\train_cartpole.py", line 70, in <module>
+    action = action.numpy().item()
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: can only convert an array of size 1 to a Python scalar
