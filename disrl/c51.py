@@ -61,7 +61,7 @@ optimizer = tf.keras.optimizers.Adam(learning_rate)
 buffer = deque(maxlen=buffer_size)
 
 # WandB initialization
-wandb.init(project="c51-cartpole")
+wandb.init(project="disrl")
 
 def compute_target_distribution(next_states, rewards, dones):
     z = tf.constant(np.linspace(Vmin, Vmax, num_atoms), dtype=tf.float32)

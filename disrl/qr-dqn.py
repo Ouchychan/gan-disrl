@@ -137,7 +137,7 @@ optimizer = tf.keras.optimizers.Adam(learning_rate)
 buffer = deque(maxlen=buffer_size)
 
 # WandB initialization
-wandb.init(project="qr-dqn-cartpole")
+wandb.init(project="disrl")
 
 # Main training loop
 for episode in range(episodes):
